@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+// 各種設定
+    @use 'base/reset'; //reset.css
+    @use 'base/base' as b; // 初期値の設定など
+    @use 'base/mixins' as m; // function
+    @use 'base/variables' as v; // color , size など
+
+    // 各種モジュール
+    @use 'modules/drawer'; // drawerの設定
+    @use 'modules/floating'; // floatingの設定
+    @use 'modules/swiper'; // swiperの設定
+
+// Parts読込み
+    @use 'parts/button.scss'; // buttonのコンポーネント
+    @use 'parts/breadclumb'; // breadclumbのコンポーネント
+    @use 'parts/pagenation'; // pagenationのコンポーネント
+
+// 共通設定
+    @use 'base/common'; // ページ間共通設定
+
+// 各種ページ
+    @use 'pages/header';
+    @use 'pages/front-page';
+    @use 'pages/page-about';
+    @use 'pages/page-service';
+    @use 'pages/news';
+    @use 'pages/page-case';
+    @use 'pages/page-download';
+    @use 'pages/page-contact';
+    @use 'pages/footer';

@@ -1,0 +1,236 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# page-contact
+============================================================= */
+
+/*============================================================
+# contact-mainvisual
+============================================================= */
+
+.contact-background-img {
+    background: url(../img/x2/mv-contact_pc.jpg) no-repeat center center/cover;
+
+        @include m.mq(sp) {
+            background: url(../img/sp/mv-contact_sp.jpg) no-repeat center center/cover;
+        }
+}
+
+/*============================================================
+# contact
+============================================================= */
+.contact {
+    margin-bottom: 160px;
+    margin-top: 75px;
+
+        @include m.mq(sp) {
+            margin-bottom: 100px;
+            margin-top: 53px;
+        }
+}
+
+
+.contact-form {
+    max-width: 687px;
+    margin: 0 auto;
+}
+
+.contact-intro {
+    font-size: m.rem(14);
+    line-height: calc(24/14);
+    margin-bottom: 80px;
+
+        @include m.mq(sp) {
+            margin-bottom: 60px;
+        }
+}
+
+.contact-form-title {
+    text-align: center;
+    font-size: m.rem(24);
+    font-weight: bold;
+    line-height: 1.37;
+}
+
+.contact-form-content {
+    margin-top: 60px;
+
+        @include m.mq(sp) {
+            margin-top: 41px;
+        }
+}
+
+.contact-form-list {
+    margin-bottom: 32px;
+}
+
+.contact-form-item {
+
+    &:not(:first-of-type) {
+        margin-top: 27px;
+    }
+
+        @include m.mq(sp) {
+            &:not(:first-of-type) {
+                margin-top: 19px;
+            }
+        }
+}
+
+.contact-form-item-text {
+    font-size: m.rem(18);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+        @include m.mq(sp) {
+            font-size: m.rem(14);
+            margin-bottom: 8px;
+        }
+
+    &-span {
+        padding: 3px 8px 4px;
+        color: #fff;
+        background-color: #E61264;
+        font-size: m.rem(12);
+        font-weight: bold;
+        line-height: 1;
+        display: inline-block;
+        margin-left: 11px;
+
+            @include m.mq(sp) {
+                margin-left: 12px;
+            }
+    }
+}
+
+.contact-form-input-box {
+
+    & > input {
+        width: 100%;
+
+            @include m.mq(sp) {
+                font-size: 14px;
+            }
+    }
+}
+
+.contact-form select {
+    width: 100%;
+    appearance: none;
+    position: relative;
+    background: url(../img/parts/select-arrow.svg) no-repeat right 16px top 50%;
+    background-size: 10px 10px;
+    font-size: m.rem(16);
+
+        @include m.mq(sp) {
+            font-size: m.rem(14);
+        }
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+
+.contact-form-item textarea {
+    resize: vertical;
+    width: 100%;
+    height: 240px;
+    padding: 10px 16px;
+    font-size: m.rem(16);
+    line-height: calc(24/16);
+
+        @include m.mq(sp) {
+            font-size: m.rem(14);
+            line-height: calc(24/14);
+            height: 140px;
+        }
+}
+
+.contact-form-privacy {
+    text-align: center;
+    margin-bottom: 47px;
+
+        @include m.mq(sp) {
+            margin-bottom: 42px;
+        }
+
+    &-link {
+        text-decoration: underline;
+        margin-bottom: 40px;
+    }
+}
+
+.contact-form-content > form > .btn {
+    width: max-content;
+}
+
+.contact-form-button {
+    margin: 0 auto;
+    padding: 34px 78px;
+    font-size: m.rem(16);
+
+        @include m.mq(sp) {
+            padding: 35px 122px;
+        }
+
+        @include m.mq(xxsp) {
+            padding: 35px 100px;
+        }
+}
+/*============================================================
+# end page-contact
+============================================================= */
+
+/*============================================================
+# contact-thnaks
+============================================================= */
+.contact-thanks {
+    margin-top: 77px;
+    margin-bottom: 160px;
+
+        @include m.mq(sp) {
+            margin-top: 55px;
+            margin-bottom: 100px;
+        }
+}
+
+.contact-thanks-form {
+    max-width: 687px;
+    margin: 0 auto;
+}
+
+.contact-thanks-intro {
+    font-size: m.rem(14);
+    line-height: calc(24/14);
+
+    &-link-box {
+        display: flex;
+        align-items: center;
+        margin-top: 11px;
+    }
+
+    &-span {
+        margin-right: 8px;
+        font-size: 14px;
+    }
+
+    &-link {
+        color: #023E78;
+        font-size: 14px;
+        border-bottom: 1px solid #023E78;
+        padding-bottom: 1px;
+        line-height: 1.2;
+    }
+}
+
+/*============================================================
+# end contact-thanks
+============================================================= */

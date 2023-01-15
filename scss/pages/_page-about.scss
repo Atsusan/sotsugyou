@@ -1,0 +1,393 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# page-about
+============================================================= */
+
+
+/*============================================================
+# company-mainvisual
+============================================================= */
+
+.company-background-img {
+    background: url(../img/x2/about-mv-company_pc.jpg) no-repeat center center/cover;
+
+        @include m.mq(sp) {
+            background: url(../img/sp/about-mv-company_sp.jpg) no-repeat center center/cover;
+        }
+}
+
+/*============================================================
+# message
+============================================================= */
+.message {
+    margin-top: 81px;
+    margin-bottom: 294px;
+
+        @include m.mq(sp) {
+            margin-top: 57px;
+            margin-bottom: 279px;
+        }
+}
+
+.message-item {
+  position: relative;
+
+  & + & {
+    margin-top: 260px;
+
+        @include m.mq(sp) {
+            margin-top: 254px;
+        }
+  }
+}
+
+.message-head {
+    color: v.$text-wh;
+    padding-top: 19px;
+    padding-left: 20px;
+
+    &-title {
+        font-size: m.rem(100);
+        font-family: b.$font-english;
+        font-weight: 500;
+        line-height: calc(121/100);
+
+            @include m.mq(sp) {
+                font-size: m.rem(52);
+                line-height: calc(63/52);
+            }
+    }
+
+    &-sub {
+        font-size: m.rem(24);
+        font-weight: bold;
+        line-height: calc(35/24);
+
+            @include m.mq(sp) {
+                font-size: m.rem(16);
+                line-height: calc(24/16);
+            }
+    }
+}
+
+.message-box {
+    width: 100%;
+    max-width: 688px;
+    position: absolute;
+    bottom: -140px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 40px;
+    background-color: v.$text-wh;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        @include m.mq(sp) {
+            bottom: -194px;
+            padding: 20px;
+        }
+
+    &-02 {
+        bottom: -176px;
+        padding: 34px 40px;
+
+            @include m.mq(sp) {
+                bottom: -218px;
+                padding: 20px;
+            }
+
+        & > .message-box-title {
+            margin-bottom: 25px;
+
+            @include m.mq(sp) {
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    &-title {
+        font-size: m.rem(24);
+        line-height: 1.6;
+        text-align: center;
+        color: v.$cBlue;
+        margin-bottom: 33px;
+
+            @include m.mq(sp) {
+                font-size: m.rem(20);
+                line-height: calc(29/20);
+                margin-bottom: 16px;
+            }
+    }
+
+    &-text {
+        font-size: m.rem(14);
+        font-weight: 500;
+        line-height: calc(24/14);
+    }
+}
+
+
+.message-background-01,
+.message-background-02 {
+    height: 353px;
+
+    @include m.mq(sp) {
+        height: 281px;
+    }
+}
+.message-background-01 {
+    background: url(../img/x2/img-company01_pc.jpg) no-repeat center center/cover;
+
+        @include m.mq(sp) {
+            background: url(../img/sp/img-company01_sp.jpg) no-repeat center center/cover;
+            margin-right: calc(50% - 50vw);
+            margin-left: calc(50% - 50vw);
+        }
+}
+
+.message-background-02 {
+    background: url(../img/x2/img-company02_pc.jpg) no-repeat center center/cover;
+
+        @include m.mq(sp) {
+            background: url(../img/sp/img-company02_sp.jpg) no-repeat center center/cover;
+            margin-right: calc(50% - 50vw);
+            margin-left: calc(50% - 50vw);
+        }
+}
+
+/*============================================================
+# company-profile
+============================================================= */
+.company-profile {
+    background: url(../img/bg-case.jpg) no-repeat center center/cover;
+    padding: 80px 40px;
+
+        @include m.mq(sp) {
+            padding: 60px 20px;
+            margin-bottom: 58px;
+        }
+}
+
+#company-profile > .inner {
+    background-color: v.$text-wh;
+    max-width: 768px;
+    padding: 60px 40px 80px;
+
+        @include m.mq(sp) {
+            min-width: 335px;
+            padding: 40px 20px;
+        }
+}
+
+.company-profile-title {
+    font-size: m.rem(24);
+    font-weight: bold;
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 1.5;
+
+        @include m.mq(sp) {
+            margin-bottom: 41px;
+        }
+}
+
+.company-profile-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.company-profile-flex:last-child > .company-profile-dt {
+    border-bottom: 1px solid v.$cBlue;
+}
+.company-profile-flex:last-child > .company-profile-dd {
+    border-bottom: 1px solid #E8EAEC;
+}
+
+.company-profile-dl {
+    font-size: m.rem(16);
+    font-weight: 500;
+    line-height: calc(24/16);
+
+        @include m.mq(sp) {
+            font-size: m.rem(14);
+            line-height: calc(24/14);
+        }
+}
+
+.company-profile-dt {
+    border-top: 1px solid v.$cBlue;
+    padding: 25px 0;
+    padding-left: 32px;
+    flex: 0 1 29.0697%;
+    display: flex;
+    align-items: center;
+
+        @include m.mq(sp) {
+            padding: 0;
+            flex: 0 1 33.5593%;
+        }
+}
+
+.company-profile-dd {
+    border-top: 1px solid #E8EAEC;
+    padding: 21px 0;
+    padding-left: 36px;
+    flex: 0 1 70.9302%;
+    display: flex;
+    align-items: center;
+
+        @include m.mq(sp) {
+            padding: 13px 0;
+            padding-left: 22px;
+            flex: 0 1 66.440677%;
+        }
+
+    &-list {
+        list-style: disc;
+        padding-left: 1.4em;
+
+            @include m.mq(sp) {
+                line-height: 1.6;
+            }
+    }
+}
+
+.company-address {
+    word-break: break-all;
+}
+
+/*============================================================
+# company-directors
+============================================================= */
+.company-directors {
+    margin-bottom: 33px;
+}
+
+.company-background-skew {
+    background: linear-gradient(transparent 56.8%, #edf3f8 56.8%);
+    padding-bottom: 152px;
+
+        @include m.mq(sp) {
+            background: linear-gradient(transparent 44.3%, #edf3f8 44.3%);
+            margin-bottom: 54px;
+            padding-bottom: 105px;
+        }
+}
+
+#company-directors > .inner {
+    max-width: 688px;
+    transform: skewY(-10deg);
+    padding: 0;
+
+        @include m.mq(sp) {
+            padding: 0 20px;
+        }
+}
+
+.company-directors-title {
+    font-size: m.rem(24);
+    font-weight: bold;
+    margin-bottom: 56px;
+    text-align: center;
+
+        @include m.mq(sp) {
+            margin-bottom: 41px;
+        }
+}
+
+.company-directors-item {
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+        @include m.mq(sp) {
+            flex-direction: column-reverse;
+        }
+}
+
+.company-directors-main {
+    flex: 0 1 calc(59.302325%);
+
+        @include m.mq(sp) {
+            flex: 0 1 100%;
+        }
+}
+
+.company-directors-profile {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+
+        @include m.mq(sp) {
+            margin-bottom: 13px;
+        }
+}
+
+.company-directors-job {
+    font-size: m.rem(14);
+    font-weight: bold;
+}
+
+.company-directors-name {
+    font-size: m.rem(20);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.company-directors-text {
+    font-size: m.rem(14);
+    font-weight: 500;
+    line-height: calc(24/14);
+    margin-bottom: 32px;
+
+        @include m.mq(sp) {
+            margin-bottom: 20px;
+        }
+}
+
+.company-directors-sns {
+    display: flex;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-link > img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.company-directors-img {
+    flex: 0 1 calc(34.88372%);
+
+        @include m.mq(sp) {
+            flex: 0 0 100%;
+            margin: 0 49px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        & > img {
+            @include m.mq(sp) {
+                width: auto;
+            }
+        }
+}
+
+/*============================================================
+# end page-about
+============================================================= */

@@ -1,0 +1,24 @@
+@use 'mixins' as m;
+// color設定
+    // text-color
+    $text-bl: #1a1a1a;
+    $text-wh: #fff;
+
+    // color
+    $main-color: #163F74;
+    $main-deep: #002a52;
+    $main-light: #EEF3F8;
+    $accent-yellow: #FEF400;
+    $accent-red: #D33365;
+
+    // other color
+    $cBlue: #023E78;
+    $cLightBlue: #EDF3F8;
+    $cRed: #E61264;
+
+// size設定
+    $font-sm: m.rem(14);
+    $font-df: m.rem(16);
+    $font-md: m.rem(20);
+    $font-lg: m.rem(26);
+    $font-xl: m.rem(32);

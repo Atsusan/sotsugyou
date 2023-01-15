@@ -1,0 +1,167 @@
+// 各種設定
+    @use '../base/reset'; //reset.css
+    @use '../base/base' as b; // 初期値の設定など
+    @use '../base/mixins' as m; // function
+    @use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# header 共通
+============================================================= */
+#header {
+    height: 100px;
+    background: #fff;
+    box-shadow: 0px 0px 16px 0px rgba(249, 249, 249, 0.6);
+    transition: all .3s ease;
+
+        @include m.mq(tab-a) {
+            height: 60px;
+        }
+}
+
+#header > .inner {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.header-logo > a > img {
+    max-width: 283px;
+
+        @include m.mq(pc-a) {
+            max-width: 250px;
+        }
+
+        @include m.mq(tab-b) {
+            max-width: 232px;
+        }
+
+        @include m.mq(tab-a) {
+            max-width: 200px;
+        }
+}
+
+.header-nav {
+    margin-left: auto;
+    height: 100%;
+
+        @include m.mq(tab-a) {
+            display: none;
+        }
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+
+    /* 下線処理 */
+    & .nav-item a {
+        position: relative;
+    }
+
+    & .nav-item.cur a,
+    & .nav-item a:hover {
+        color: v.$text-bl;
+    }
+
+    & .nav-item a::after {
+        content: "";
+        position: absolute;
+        bottom: 30px;
+        left: 1%;
+        width: 99%;
+        height: 1px;
+        background-color: v.$text-bl;
+        transition: all .3s;
+        transform: scale(0,1);
+        transform-origin: center top;
+    }
+
+    & .nav-item.cur a::after,
+    & .nav-item a:hover::after {
+        transform: scale(1,1);
+    }
+}
+
+.nav-item {
+    position: relative;
+    transition: all 0.3s ease 0s;
+    height: 100%;
+
+    &:not(:first-child) {
+        margin-left: 46px;
+
+            @include m.mq(pc-max) {
+                margin-left: 30px;
+            }
+
+            @include m.mq(tab-b) {
+                margin-left: 25px;
+            }
+    }
+
+    &-download,
+    &-content {
+        text-align: center;
+        height: 68px;
+    }
+
+    &-download {
+        margin-left: 32px;
+
+            @include m.mq(pc-max) {
+                margin-left: 15px;
+            }
+
+            @include m.mq(tab-b) {
+                margin-left: 13px;
+            }
+    }
+
+    &-content {
+        margin-left: 10px;
+    }
+
+    & + &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -33px;
+        transform: translateY(-50%);
+        width: 20px;
+        height: 20px;
+        background: url(../img/parts/parts-slash.svg) no-repeat center center / contain;
+
+            @include m.mq(pc-max) {
+                left: -25px;
+            }
+    }
+
+    &-link {
+        text-decoration: none;
+        height: 100%;
+        width: 100%;
+        font-size: m.rem(14);
+        transition: all 0.3s ease 0s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & > .nav-item-link {
+
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}
+/*============================================================
+# end header
+============================================================= */
+

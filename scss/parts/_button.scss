@@ -1,0 +1,216 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# buttons
+============================================================= */
+.btn {
+    width: 176px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid v.$cBlue;
+    color: v.$cBlue;
+    font-size: 14px;
+    transition: all .4s ease;
+
+        @include m.mq(tab-b) {
+            width: 150px;
+            height: 50px;
+        }
+
+    &-float {
+        border: 1px solid v.$cBlue;
+        color: v.$cBlue;
+
+        &:hover {
+            background-color: v.$cBlue;
+            color: v.$text-wh;
+        }
+    }
+
+    &-filled {
+        background-color: v.$cBlue;
+        color: v.$text-wh;
+
+        &:hover {
+            background-color: v.$main-deep;
+            color: v.$text-wh;
+            border: 1px solid v.$main-deep;
+        }
+    }
+
+    &-arrow {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 18px;
+            transform: translateY(-50%);
+            width: 22px;
+            height: 22px;
+            transition: all .3s ease;
+            @include m.svg-parts-arrow('023E78');
+
+        }
+        &:hover {
+            background-color: v.$cBlue;
+            color: v.$text-wh;
+
+            &::after {
+                right: 13px;
+
+                @include m.svg-parts-arrow('ffffff');
+            }
+        }
+    }
+
+    &-drawer-filled {
+        width: 295px;
+        border: 1px solid v.$text-wh;
+        background: inherit;
+        color: v.$text-wh;
+    }
+
+    &-drawer-float {
+        width: 295px;
+        border: 1px solid #fff;
+        background: v.$text-wh;
+
+        & > a {
+            color: v.$cBlue;
+        }
+    }
+
+    &-arrow-yellow {
+        width: 315px;
+        border: 2px solid v.$accent-yellow;
+        color: v.$accent-yellow;
+        background-color: none;
+        position: relative;
+        transition: all .3s ease;
+
+        &::after {
+            content: "";
+            width: 21px;
+            height: 21px;
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-65%);
+            @include m.svg-parts-arrow('FFF400');
+            transition: all .3s ease;
+        }
+
+        &:hover {
+            background-color: v.$accent-yellow;
+            color: v.$text-bl;
+
+            &::after {
+                right: 13px;
+                @include m.svg-parts-arrow('1a1a1a');
+                transition: all .3s ease;
+            }
+        }
+    }
+}
+
+.more-bl,
+.more-wh {
+    position: relative;
+    width: 288px;
+    height: 100%;
+    display: block;
+    font-family: b.$font-english;
+    font-size: m.rem(32);
+    text-decoration: none;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 51px;
+        height: 51px;
+        transform: translateY(-60%);
+        border: 2px solid v.$accent-yellow;
+        border-radius: 50%;
+    }
+
+    &:hover .more-arrow-wh::after,
+    &:hover .more-arrow-bl::after {
+        transform: translate(-23%,-50%);
+    }
+
+        @include m.mq(sp) {
+            width: 189px;
+            font-size: m.rem(20);
+
+            &::before {
+                width: 40px;
+                height: 40px;
+            }
+        }
+}
+
+.more-bl {
+    color: v.$text-bl;
+
+    &::before {
+        background-color: v.$accent-yellow;
+    }
+
+        @include m.mq(sp) {
+            color: v.$cBlue;
+        }
+}
+
+.more-wh {
+    color: v.$text-wh;
+}
+
+
+.more-arrow-bl,
+.more-arrow-wh {
+    position: absolute;
+    top: 0;
+    right: -29px;
+    width: 151px;
+    height: 100%;
+    display: block;
+    overflow-x: hidden;
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -29px;
+        transform: translate(-50%,-50%);
+        width: 150px;
+        height: 20px;
+        transition: all .3s ease;
+        @include m.svg-parts-arrow-long('ffffff');
+    }
+
+        @include m.mq(sp) {
+            width: 111px;
+            transform: translateY(12%);
+        }
+}
+
+.more-arrow-bl::after {
+    @include m.svg-parts-arrow-long('1A1A1A');
+
+        @include m.mq(sp) {
+            @include m.svg-parts-arrow-long('023E78');
+        }
+}
+

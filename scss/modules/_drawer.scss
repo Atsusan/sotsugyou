@@ -1,0 +1,165 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+/* drwaerの実装 */
+.drawer-icon {
+    padding: 0;
+    width: 27px; //drawer-iconのクリックの大きさ
+    height: 27px; //drawer-iconのクリックの大きさ
+    position: relative; // drawer-iconの基準位置、固定の場合はfixd,動かす場合はrelative
+    top: 5px; //relative時はmargin-left: auto;で対応
+    right: 0;
+    margin-left: auto;
+    z-index: 100;
+    display: none;
+
+        @include m.mq(tab-a) {
+            display: block;
+        }
+
+    & span {
+    position: absolute;
+    top: 7px;
+    right: 0;
+    width: 100%;
+    height: 2.25px;
+    background-color: v.$cBlue;
+    border-radius: 10px;
+    transition: background-color 0.1s;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 2.25px;
+        background: v.$cBlue;
+        border-radius: 10px;
+    }
+    &::before {
+        top: -7px;
+        transition: transform 0.2s;
+    }
+    &::after {
+        top: 7px;
+        transition: transform 0.3s;
+    }
+    }
+}
+  /* マスク部分処理 */
+//   .drawer-background {
+//     width: 0;
+//     height: 100%;
+//     background-color: rgba(62, 62, 62, 0.7);
+//     position: fixed;
+//     top: 0;
+//     right: 0;
+//     z-index: 90;
+//     display: none;
+
+//     @include m.mq(tab-b) {
+//         display: block;
+//     }
+//   }
+
+.drawer-nav {
+    width: 100%;
+    height: calc(100vh - 60px);
+    transform: translateY(60px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+    display: none;
+}
+
+.drawer-nav-list {
+    width: 100%;
+    height: 100%;
+    padding: 60px 40px;
+    background-color: v.$cBlue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+    overflow: auto;
+}
+.drawer-nav-item:first-child {
+    margin-top: 100px;
+}
+
+.drawer-nav-item:not(:first-child) {
+    margin-top: 37px;
+}
+
+.drawer-nav-item:last-of-type {
+    margin-bottom: 100px;
+}
+
+.drawer-nav-list > .btn,
+.drawer-nav-list > .btn-drawer-filled {
+    width: 100%;
+    max-width: 295px;
+    padding: 32px 0;
+}
+
+.drawer-nav-item-link {
+    display: block;
+    text-decoration: none;
+    font-size: m.rem(16);
+    color: v.$text-wh;
+}
+
+/* icon移動のため、logo分の横幅を無くす処理 */
+// body .header-logo {
+//     display: none;
+//   }
+
+/* クリックされてからのicon処理 */
+body.is-open .drawer-icon {
+    // margin-right: 300px;
+    // transition: margin 0.4s;
+
+    & span {
+    /* icon クリック時の色 */
+    background-color: transparent;
+
+        &::before,
+        &::after {
+            /* icon クリック時の色 */
+            background-color: v.$cBlue;
+        }
+        &::before {
+            transform: translateY(8px) rotate(315deg);
+        }
+        &::after {
+            transform: translateY(-6px) rotate(-315deg);
+        }
+    }
+}
+/* クリックされてからのマスク処理 */
+// body.is-open .drawer-background {
+//     width: 100%;
+// }
+
+body.is-open > #header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+body.is-open .drawer-nav {
+    display: block;
+}
+
+/* リストアイテムのリンク部分 */
+body.is-open .drawer-nav-item-link {
+    /* リンク部分を滑らかにスライドさせるための処理 */
+    transform: translateY(0);
+}

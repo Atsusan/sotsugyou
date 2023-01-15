@@ -1,0 +1,250 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# page-download
+============================================================= */
+
+/*============================================================
+# download-mainvisual
+============================================================= */
+
+.download-background-img {
+    background: url(../img/x2/mv-download_pc.jpg) no-repeat center center/cover;
+
+        @include m.mq(sp) {
+            background: url(../img/sp/download-img.jpg) no-repeat center center/cover;
+        }
+}
+
+/*============================================================
+# download
+============================================================= */
+.download {
+    margin-bottom: 123px;
+
+        @include m.mq(sp) {
+            margin-bottom: 100px;
+        }
+}
+
+.download-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+        @include m.mq(sp) {
+            flex-direction: column;
+        }
+}
+
+.download-item {
+    width: 46.3636%;
+
+        @include m.mq(sp) {
+            width: 100%;
+        }
+}
+
+.download-form {
+    width: 50%;
+    padding: 40px;
+    background-color: #EDF3F8;
+    border-radius: 12px;
+
+        @include m.mq(sp) {
+            width: 100%;
+            padding: 40px 20px;
+        }
+}
+
+.download-item-title {
+    font-size: m.rem(28);
+    font-weight: bold;
+    line-height: calc(40/28);
+    margin-bottom: 53px;
+
+        @include m.mq(sp) {
+            font-size: m.rem(20);
+            line-height: 1.5;
+        }
+}
+
+.download-item-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-left: 15px;
+
+    & > img {
+        width: 21.4843vw;
+
+            @include m.mq(sp) {
+                width: 73.33333vw;
+            }
+    }
+}
+
+.download-item-text {
+    font-size: m.rem(14);
+    line-height: calc(24/14);
+
+        @include m.mq(sp) {
+            margin-bottom: 60px;
+        }
+}
+
+.download-form-title {
+    font-size: m.rem(32);
+    line-height: 1.43;
+    margin-bottom: 40px;
+
+        @include m.mq(sp) {
+            font-size: m.rem(24);
+            line-height: 1.54;
+        }
+}
+
+.download-form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &:not(:first-of-type) {
+        margin-top: 32px;
+
+            @include m.mq(sp) {
+                margin-top: 20px;
+            }
+    }
+}
+
+.download-form-item-text {
+    font-size: m.rem(18);
+    font-weight: bold;
+    margin-bottom: 13px;
+    line-height: 1.13;
+
+        @include m.mq(sp) {
+            font-size: m.rem(14);
+            margin-bottom: 6px;
+        }
+
+    &-span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: m.rem(12);
+        line-height: 1;
+        color: #fff;
+        background-color: #E61264;
+        padding: 3px 8px;
+        display: inline-block;
+        margin-left: 10px;
+
+            @include m.mq(sp) {
+                margin-left: 8px;
+                padding: 2px 8px;
+            }
+    }
+
+}
+
+.download-form-input-box {
+
+    & > input {
+        font-size: m.rem(16);
+        width: 100%;
+        padding: 8px 0 12px 16px;
+        border-radius: 5px;
+
+            @include m.mq(sp) {
+                font-size: m.rem(14);
+                padding: 12px 0 12px 14px;
+            }
+    }
+}
+
+.download-form-privacy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+
+    &-link {
+        text-decoration: underline;
+        margin-right: 0;
+
+            @include m.mq(sp) {
+                margin-right: 6px;
+            }
+    }
+}
+
+.download-form-privacy + .btn {
+    width: max-content;
+    padding: 1.875vw 6.25vw;
+    margin: 0 auto;
+    font-size: m.rem(16);
+    background-color: #fff;
+
+        @include m.mq(sp) {
+            font-size: m.rem(14);
+            padding: 24px 70px;
+        }
+
+        @include m.mq(xsp) {
+            padding: 8.9333vw 18.6666vw;
+        }
+}
+
+/*============================================================
+# end page-download
+============================================================= */
+
+
+/*============================================================
+# page-contact-thanks
+============================================================= */
+.download-thanks {
+    margin-bottom: 121px;
+
+        @include m.mq(sp) {
+            margin-bottom: 95px;
+        }
+}
+
+.download-thanks .download-item {
+    margin-bottom: 115px;
+
+        @include m.mq(sp) {
+            margin-bottom: 0;
+        }
+}
+
+.download-form-text {
+    font-size: m.rem(14);
+    line-height: 2.1;
+
+        @include m.mq(sp) {
+            line-height: 1.98;
+        }
+
+    &-link {
+        text-decoration: underline;
+        color: v.$cBlue;
+    }
+
+    &:not(:first-of-type) {
+        margin-top: 33px;
+    }
+}
+
+/*============================================================
+# end page-content-thanks
+============================================================= */

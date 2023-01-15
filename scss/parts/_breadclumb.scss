@@ -1,0 +1,43 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# breakclumb
+============================================================= */
+.breadclumb {
+    margin-top: 12px;
+}
+
+.breadclumb-tag-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.breadclumb-item {
+    color: #888888;
+    font-size: m.rem(12);
+
+    &:not(:first-child) {
+        margin-left: 28px;
+        color: v.$text-bl;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: calc((8px + 12px) * -1);
+            transform: translateY(-50%);
+            background: url(../img/parts/parts-breadclumb.svg) no-repeat center center/contain;
+            width: 12px;
+            height: 17px;
+        }
+    }
+}
+/*============================================================
+#  end breakclumb
+============================================================= */

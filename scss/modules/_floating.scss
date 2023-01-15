@@ -1,0 +1,38 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+/* floating */
+
+.floating {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    font-size: 25px;
+    z-index: 99;
+
+    & a {
+        text-decoration: none;
+        color: #fff;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0.9;
+        transition: all 0.3s ease;
+    }
+
+    & i {
+        transform: translateY(-10%);
+    }
+
+        @include m.mq(tab-b) {
+            bottom: 20px;
+            right: 10px;
+        }
+}

@@ -1,0 +1,191 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# footer-menu
+============================================================= */
+
+#footer-contents > .inner {
+    max-width: 100%;
+    padding: 0;
+}
+
+#footer-contents > .flex {
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            flex-direction: column;
+        }
+}
+
+.footer-content {
+    flex: 0 0 50%;
+    height: 340px;
+    text-align: center;
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            height: 265px;
+            flex: 0 0 auto;
+        }
+}
+
+.footer-download,
+.footer-faq {
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+
+.footer-download {
+    background: url(../img/footer-download.jpg) no-repeat center center/cover;
+
+    &::before {
+        content: "";
+        background-color: rgba(0,82,162,0.8);
+    }
+}
+
+.footer-faq {
+    background: url(../img/footer-faq.jpg) no-repeat center center/cover;
+
+    &::before {
+        content: "";
+        background-color: rgba(2,62,120,0.8);
+    }
+}
+
+.footer-head {
+    color: v.$text-wh;
+    font-family: b.$font-english;
+    margin: 5px 0 37px;
+
+        @include m.mq(sp) {
+            margin-bottom: 35px;
+        }
+}
+
+.footer-title {
+    text-transform: uppercase;
+    font-size: m.rem(60);
+    transition: all .3s ease;
+    line-height: 1.18;
+
+        @include m.mq(sp) {
+            font-size: m.rem(40);
+            margin-top: 8px;
+            line-height: 1.6;
+        }
+}
+
+.footer-sub {
+    font-weight: bold;
+    font-size: m.rem(16);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content > .btn-arrow-yellow {
+    width: max-content;
+    font-size: m.rem(24);
+    font-family: b.$font-english;
+    padding: 46px 102px;
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            font-size: m.rem(16);
+            padding: 38px 108px 35px;
+        }
+}
+/*============================================================
+# footer
+============================================================= */
+#footer {
+    background: v.$text-bl;
+    height: 392px;
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            height: 279px;
+        }
+}
+
+#footer > .inner {
+    max-width: 1280px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.footer-container {
+    position: absolute;
+    top: 26.081632%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+
+        @include m.mq(sp) {
+            margin-bottom: 26px;
+            line-height: 1;
+        }
+}
+
+.footer-logo a {
+    text-decoration: none;
+    font-size: m.rem(52);
+    font-weight: bold;
+    font-family: b.$font-english;
+    color: v.$text-wh;
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            font-size: m.rem(40);
+        }
+}
+
+.footer-address {
+    font-size: m.rem(14);
+    font-style: normal;
+    line-height: calc(24 / 14);
+    color: v.$text-wh;
+}
+
+.footer-copyright {
+    font-size: m.rem(14);
+    color: v.$text-wh;
+    position: absolute;
+    bottom: 19px;
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            font-size: m.rem(12);
+            bottom: 13px;
+        }
+}
+/*============================================================
+# end footer
+============================================================= */

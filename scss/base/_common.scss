@@ -1,0 +1,141 @@
+// @use 宣言
+@use 'base' as b;
+@use 'mixins' as m;
+@use 'variables' as v;
+
+/*============================================================
+# ページ間共通設定
+============================================================= */
+
+/* skew バックグラウンド */
+.section-background-skew {
+    background: linear-gradient(transparent 40.5%, v.$cLightBlue 40.5%);
+    transform: skewY(10deg);
+
+        @include m.mq(sp) {
+            background: linear-gradient(transparent 19%, #edf3f8 19%);
+        }
+}
+
+.skew-reset {
+    transform: skewY(-10deg);
+}
+
+/* 非表示設定 */
+.is-pc {
+    display: block;
+
+        @include m.mq(sp) {
+            display: none;
+        }
+}
+
+.is-sp {
+    display: block;
+
+        @include m.mq(sp-2) {
+            display: none;
+        }
+}
+
+.is-xsp {
+    display: none;
+
+        @include m.mq(xsp) {
+            display: block;
+        }
+}
+
+.display-hidden-active {
+    display: none;
+}
+    @media screen and (max-width: 768px) {
+        .display-hidden {
+            display: none;
+        }
+        .display-hidden-active {
+            display: block;
+        }
+    }
+
+
+/* mv 共通
+---------------------------------------------------*/
+
+.mv {
+    position: relative;
+    height: 250px;
+}
+
+.mv-background-img {
+    height: 100%;
+    position: relative;
+    z-index: -1;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 365px;
+        background: url(../img/x2/lower-mv-decoration_pc.png) no-repeat center center/cover;
+
+            @include m.mq(sp) {
+                background: url(../img/sp/lower-mv-decoration_sp.png) no-repeat center center/cover;
+                width: 166px;
+            }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(26,26,26,0.2);
+    }
+}
+
+.mv-title-area {
+    position: absolute;
+    top: 71px;
+    left: 17.265625vw;
+
+        @include m.mq(sp) {
+            top: 90px;
+            left: 5.6vw;
+        }
+}
+
+.mv-title {
+    font-size: m.rem(60);
+    font-weight: 500;
+    line-height: calc(72/60);
+    margin-bottom: 8px;
+
+        @include m.mq(sp) {
+            font-size: m.rem(32);
+            line-height: calc(38/32);
+        }
+
+    & span {
+        background-color: v.$text-wh;
+    }
+}
+
+.mv-subtitle {
+    font-size: m.rem(20);
+    font-weight: bold;
+    line-height: calc(29/20);
+
+        @include m.mq(sp) {
+            font-size: m.rem(16);
+            line-height: calc(24/16);
+        }
+
+    & span {
+        background-color: v.$text-wh;
+    }
+}

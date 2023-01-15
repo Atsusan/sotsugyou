@@ -1,0 +1,97 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+
+/*============================================================
+# pagenation
+============================================================= */
+.pagenation {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+        @include m.mq(sp) {
+            margin-top: 40px;
+            gap: 6px;
+        }
+}
+
+.page-number {
+    width: 50px;
+    height: 50px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+
+        @include m.mq(sp) {
+            width: 40px;
+            height: 40px;
+        }
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.current {
+    background-color: v.$cBlue;
+    color: v.$text-wh;
+    cursor: pointer;
+}
+
+.pagenation-previous {
+    margin-right: 20px;
+    position: relative;
+
+        @include m.mq(sp) {
+            margin-right: 0px;
+        }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( 15%, -50%);
+        width: 16px;
+        height: 16px;
+        background: url(../img/parts/icon-chevron-left.svg) no-repeat center center/contain;
+
+            @include m.mq(sp) {
+                width: 13px;
+                height: 13px;
+                transform: translate(-50%,-50%);
+            }
+    }
+}
+.pagenation-next {
+    margin-left: 20px;
+    position: relative;
+
+        @include m.mq(sp) {
+            margin-left: 0px;
+        }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        transform: translate( 15%, -50%);
+        width: 16px;
+        height: 16px;
+        background: url(../img/parts/icon-chevron-right.svg) no-repeat center center/contain;
+
+            @include m.mq(sp) {
+                width: 13px;
+                height: 13px;
+                transform: translate(50%,-50%);
+            }
+    }
+}
