@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" prefix="og: http://ogp.me/ns#">
+<html <?php language_attributes(); ?>>
 <!-- OGP宣言 -->
 
 <head>

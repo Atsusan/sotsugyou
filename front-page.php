@@ -22,7 +22,7 @@
                     </li>
                     <li class="swiper-slide">
                         <picture class="mainvisual-picture">
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/x2/mv-3.jpg" media="(min-width: 768px)">
+                            <source srcsetgit ="<?php echo get_template_directory_uri(); ?>/img/x2/mv-3.jpg" media="(min-width: 768px)">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/sp/hero3.jpg" alt="写真3枚目">
                         </picture>
                     </li>
