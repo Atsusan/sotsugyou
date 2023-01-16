@@ -16,24 +16,9 @@
     <meta property="og:site_name" content="Global Standard"><!-- OGPサイトネーム -->
     <meta property="og:description" content=""><!-- OGPサイトの概要欄 -->
     <meta name="twitter:card" content="summary_large_image"><!-- OGP Twitterカード -->
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2">
-    <!-- swiper.js -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
-    </style>
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
     <!-- ファビコンの設定 -->
     <!-- <link rel="icon" href=""> -->
+    <?php wp_head(); ?>
 </head>
 
 
@@ -480,10 +465,7 @@
     </div>
 
 
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Main JS -->
-    <script src="./js/script.js"></script>
+    <?php wp_footer(); ?>
 </body>
 
 </html>
