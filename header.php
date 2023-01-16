@@ -6,8 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
-    <title>Global Standard</title>
-    <meta name="description" content="You Can Cheange The World - 世界で活躍できるグローバルな人材を育てる"><!-- 概要欄 -->
 
     <meta property="og:title" content="Global Standard"><!-- OGPタイトル -->
     <meta property="og:type" content="website">
@@ -21,8 +19,8 @@
     <?php wp_head(); ?>
 </head>
 
-<body>
-
+<body <?php body_class(); ?>>
+<?php wp_body_open(); ?>
     <header id="header">
         <div class="inner">
              <h1 class="header-logo">
