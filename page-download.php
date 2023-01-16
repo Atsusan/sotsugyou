@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: 資料ダウンロード
+*/
+get_header(); ?>
 
 
   <div class="download-mainvisual mv">

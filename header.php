@@ -31,8 +31,8 @@
 
             <nav class="header-nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="/front-page.html" class="nav-item-link">トップ</a></li>
-                    <li class="nav-item"><a href="/page-about.html" class="nav-item-link">当社について</a></li>
+                    <li class="nav-item"><a href="<?php echo esc_url(home_url('/')); ?>" class="nav-item-link">トップ</a></li>
+                    <li class="nav-item"><a href="<?php bloginfo('url'); ?>/about" class="nav-item-link">当社について</a></li>
                     <li class="nav-item"><a href="/page-service.html" class="nav-item-link">サービス</a></li>
                     <li class="nav-item"><a href="/page-case.html" class="nav-item-link">導入事例</a></li>
                     <li class="nav-item"><a href="/home.html" class="nav-item-link">お知らせ</a></li>

@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: 研修事例
+*/
+get_header(); ?>
 
     <div class="case-mainvisual mv">
         <div class="case-background-img mv-background-img"></div>

@@ -29,14 +29,14 @@
     <footer id="footer">
         <div class="inner">
             <div class="footer-container">
-                <div class="footer-logo"><a href="#">Global Standard</a></div>
+                <div class="footer-logo"><a href="<?php esc_url(home_url('/')); ?>"><?php bloginfo('mame'); ?></a></div>
                 <address class="footer-address">
                     〒550-1000 大阪市西区土佐堀9-5-5<br>
                     TEL 06-123-4567<br>
                     FAX 06-123-4568
                 </address>
             </div>
-            <small class="footer-copyright">&copy;2021 Global Standard. All Rights Reserved.</small>
+            <small class="footer-copyright">&copy;2021 <?php bloginfo('name'); ?>. All Rights Reserved.</small>
             <!-- /.footer-copyright -->
 
         </div><!-- /inner -->

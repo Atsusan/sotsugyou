@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: お問い合わせ
+*/
+get_header(); ?>
 
     <div class="contact-mainvisual mv">
         <div class="contact-background-img mv-background-img"></div>

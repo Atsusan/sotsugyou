@@ -64,7 +64,7 @@
                 <!-- /.about-text-box -->
                 <!-- /.about-text -->
                 <div class="about-footer">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-company.jpg" alt="">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-company.jpg" alt="img-company.jpg">
                     <div class="about-footer-link">
                         <a href="#" class="more-wh display-hidden-active"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
                     </div>
@@ -160,11 +160,11 @@
         <div class="inner">
             <div class="casestudy-head flex">
                 <div class="casestudy-titles">
-                    <h2 class="casestudy-title section-title">case study</h2>
+                    <h2 class="casestudy-title section-title">case&nbsp;study</h2>
                     <div class="casestudy-sub section-sub">導入事例</div>
                 </div>
                 <!-- /.casestudy-titles -->
-                <a href="#" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View more</a>
+                <a href="#" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View&nbsp;more</a>
             </div>
             <!-- /.casestudy-head flex -->
             <ul class="casestudy-list">

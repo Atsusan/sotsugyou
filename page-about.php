@@ -1,53 +1,8 @@
-<?php get_header(); ?>
-
-<body>
-
-    <header id="header">
-        <div class="inner">
-             <h1 class="header-logo">
-                <a href="#">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/company-logo.svg" alt="Global Standard">
-                </a>
-            </h1><!-- /.header-logo -->
-
-            <nav class="header-nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#" class="nav-item-link">トップ</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">当社について</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">サービス</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">導入事例</a></li>
-                    <li class="nav-item"><a href="#" class="nav-item-link">お知らせ</a></li>
-                    <li class="nav-item-download btn btn-float"><a href="#" class="nav-item-link">資料ダウンロード</a></li>
-                    <li class="nav-item-content btn btn-filled"><a href="#" class="nav-item-link">お問い合わせ</a></li>
-                </ul>
-                <!-- /.nav-list -->
-            </nav>
-            <!-- /.header-nav -->
-
-            <!-- ドロワー 実装 -->
-            <!-- ドロワーのアイコン部分 -->
-            <a class="drawer-icon"><span></span></a>
-            <!-- ドロワーの背景、マスク部分 -->
-            <!-- <div class="drawer-background"></div> -->
-            <!-- ドロワーの背景、コンテンツ部分 -->
-            <nav class="drawer-nav">
-                <ul class="drawer-nav-list">
-                    <!-- ドロワーのアイテム部分 -->
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="#">トップ</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="#">当社について</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="#">サービス</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="#">導入事例</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="#">お知らせ</a></li>
-                    <li class="drawer-nav-item btn btn-drawer-filled"><a class="drawer-nav-item-link"
-                            href="#">資料ダウンロード</a></li>
-                    <li class="drawer-nav-item btn btn-drawer-float"><a class="drawer-nav-item-link" href="#">お問い合わせ</a>
-                    </li>
-                </ul>
-                <!-- ドロワー 実装-->
-            </nav>
-        </div><!-- /.inner -->
-    </header>
-    <!-- /#header -->
+<?php 
+/*
+Template Name: 当社について
+*/
+get_header(); ?>
 
     <!-- main -->
 

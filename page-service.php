@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: 研修紹介
+*/
+get_header(); ?>
     <main>
 
         <!-- service-mainvisual -->
