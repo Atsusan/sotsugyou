@@ -1,4 +1,3 @@
-
     <!-- footer-contents -->
     <div id="footer-contents">
         <div class="inner flex">

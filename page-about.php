@@ -1,38 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja" prefix="og: http://ogp.me/ns#">
-<!-- OGP宣言 -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
-    <title>Global Standard -page-about-</title>
-    <meta name="description" content="You Can Cheange The World - 世界で活躍できるグローバルな人材を育てる"><!-- 概要欄 -->
-
-    <meta property="og:title" content="Global Standard -page-about-"><!-- OGPタイトル -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://example.com/"><!-- OGPサイトURL -->
-    <meta property="og:image" content="https://example.com/img/ogp.png"><!-- OGPサムネイル -->
-    <meta property="og:site_name" content="Global Standard"><!-- OGPサイトネーム -->
-    <meta property="og:description" content=""><!-- OGPサイトの概要欄 -->
-    <meta name="twitter:card" content="summary_large_image"><!-- OGP Twitterカード -->
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&family=Noto+Sans+JP:wght@400;500;700&display=swap');
-    </style>
-    <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- ファビコンの設定 -->
-    <!-- <link rel="icon" href=""> -->
-</head>
-
+<?php get_header(); ?>
 
 <body>
 
@@ -40,7 +6,7 @@
         <div class="inner">
              <h1 class="header-logo">
                 <a href="#">
-                    <img src="/img/logo/company-logo.svg" alt="Global Standard">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/company-logo.svg" alt="Global Standard">
                 </a>
             </h1><!-- /.header-logo -->
 
@@ -196,18 +162,18 @@
                             </p>
                             <div class="company-directors-sns">
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-twitter.svg" alt="twitter">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-facebook.svg" alt="facebook">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-instgram.svg" alt="instgram">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
                         </div>
                         <figure class="company-directors-img">
-                            <img src="/img/x2/company-profile01.jpg" alt="波瑠慶太">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/company-profile01.jpg" alt="波瑠慶太">
                         </figure>
                     </li>
                     <li class="company-directors-item">
@@ -223,18 +189,18 @@
                             </p>
                             <div class="company-directors-sns">
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-twitter.svg" alt="twitter">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-facebook.svg" alt="facebook">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-instgram.svg" alt="instgram">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
                         </div>
                         <figure class="company-directors-img">
-                            <img src="/img/x2/company-profile02.jpg" alt="ジャック・スミス">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/company-profile02.jpg" alt="ジャック・スミス">
                         </figure>
                     </li>
                     <li class="company-directors-item">
@@ -250,18 +216,18 @@
                             </p>
                             <div class="company-directors-sns">
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-twitter.svg" alt="twitter">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-facebook.svg" alt="facebook">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="/img/icon/icon-sns-instgram.svg" alt="instgram">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
                         </div>
                         <figure class="company-directors-img">
-                            <img src="/img/x2/company-profile03.jpg" alt="メアリー・ジャクソン">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/company-profile03.jpg" alt="メアリー・ジャクソン">
                         </figure>
                     </li>
                 </ul>
@@ -275,60 +241,4 @@
     </main>
 
     <!-- / main -->
-
-    <!-- footer-contents -->
-    <div id="footer-contents">
-        <div class="inner flex">
-            <div class="footer-content footer-download">
-                <div class="footer-head">
-                    <h2 class="footer-title">download</h2>
-                    <span class="footer-sub">資料ダウンロード</span>
-                </div>
-                <!-- /.footer-head -->
-                <a class="btn btn-arrow-yellow">View more</a>
-            </div>
-            <!-- /.footer-content -->
-            <div class="footer-content footer-faq">
-                <div class="footer-head">
-                    <h2 class="footer-title">contact</h2>
-                    <span class="footer-sub">お問い合わせ</span>
-                </div>
-                <!-- /.footer-head -->
-                <a class="btn btn-arrow-yellow">View more</a>
-            </div>
-            <!-- /.footer-content -->
-        </div>
-        <!-- /.inner -->
-    </div>
-    <!-- /#footer-contents -->
-
-
-    <!-- footer -->
-    <footer id="footer">
-        <div class="inner">
-            <div class="footer-container">
-                <div class="footer-logo"><a href="#">Global Standard</a></div>
-                <address class="footer-address">
-                    〒550-1000 大阪市西区土佐堀9-5-5<br>
-                    TEL 06-123-4567<br>
-                    FAX 06-123-4568
-                </address>
-            </div>
-            <small class="footer-copyright">&copy;2021 Global Standard. All Rights Reserved.</small>
-            <!-- /.footer-copyright -->
-
-        </div><!-- /inner -->
-    </footer><!-- /footer -->
-
-    <div class="floating">
-        <a href="#"><i class="fas fa-chevron-up"></i></a>
-    </div>
-
-
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- Main JS -->
-    <script src="./js/script.js"></script>
-</body>
-
-</html>
+<?php get_footer(); ?>

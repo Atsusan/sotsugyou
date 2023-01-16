@@ -21,14 +21,13 @@
     <?php wp_head(); ?>
 </head>
 
-
 <body>
 
     <header id="header">
         <div class="inner">
              <h1 class="header-logo">
                 <a href="/front-page.html">
-                    <img src="/img/logo/company-logo.svg" alt="Global Standard">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/company-logo.svg" alt="Global Standard">
                 </a>
             </h1><!-- /.header-logo -->
 
