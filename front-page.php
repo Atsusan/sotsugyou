@@ -10,20 +10,20 @@
                     <!-- Slides -->
                     <li class="swiper-slide">
                         <picture class="mainvisual-picture">
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/x2/mv-1.jpg" media="(min-width: 768px)">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/hero1.jpg" alt="写真1枚目">
+                            <source srcset="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/mv-1.jpg" media="(min-width: 768px)">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/sp/hero1.jpg" alt="写真1枚目">
                         </picture>
                     </li>
                     <li class="swiper-slide">
                         <picture class="mainvisual-picture">
-                            <source srcset="<?php echo get_template_directory_uri(); ?>/img/x2/mv-2.jpg" media="(min-width: 768px)">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/hero2.jpg" alt="写真2枚目">
+                            <source srcset="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/mv-2.jpg" media="(min-width: 768px)">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/sp/hero2.jpg" alt="写真2枚目">
                         </picture>
                     </li>
                     <li class="swiper-slide">
                         <picture class="mainvisual-picture">
-                            <source srcset ="<?php echo get_template_directory_uri(); ?>/img/x2/mv-3.jpg" media="(min-width: 768px)">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/sp/hero3.jpg" alt="写真3枚目">
+                            <source srcset ="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/mv-3.jpg" media="(min-width: 768px)">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/sp/hero3.jpg" alt="写真3枚目">
                         </picture>
                     </li>
                 </ul>
@@ -64,7 +64,7 @@
                     <!-- /.about-text-box -->
                     <!-- /.about-text -->
                     <div class="about-footer">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/img-company.jpg" alt="">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-company.jpg" alt="">
                         <div class="about-footer-link">
                             <a href="#" class="more-wh display-hidden-active"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
                         </div>
@@ -100,7 +100,7 @@
                         <div class="service-item-head">
                             <div class="service-item-numbertag">01</div>
                             <div class="service-item-img service-item-img-01">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/img-service01.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service01.jpg" alt="">
                             </div>
                             <h3 class="service-subtitle"><span>ビジネス英語研修</span></h3>
                         </div>
@@ -114,7 +114,7 @@
                         <div class="service-item-head">
                             <div class="service-item-numbertag">02</div>
                             <div class="service-item-img service-item-img-02">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/img-service02.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service02.jpg" alt="">
                             </div>
                             <div class="service-subtitle">
                                 <h3 class="service-subtitle-1"><span>異文化</span></h3>
@@ -130,7 +130,7 @@
                         <div class="service-item-head">
                             <div class="service-item-numbertag">03</div>
                             <div class="service-item-img service-item-img-03">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/img-service03.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service03.jpg" alt="">
                             </div>
                             <div class="service-subtitle">
                                 <h3 class="service-subtitle-1"><span>ビジネス留学</span></h3>
@@ -172,7 +172,7 @@
                     <li class="casestudy-item">
                         <a href="#" class="casestudy-item-link">
                             <div class="casestudy-item-head">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case01.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case01.jpg" alt="">
                             </div>
                             <!-- /.casestudy-item-head -->
                             <div class="casestudy-item-body">
@@ -190,7 +190,7 @@
                     <li class="casestudy-item">
                         <a href="#" class="casestudy-item-link">
                             <div class="casestudy-item-head">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case02.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="">
                             </div>
                             <!-- /.casestudy-item-head -->
                             <div class="casestudy-item-body">
@@ -207,7 +207,7 @@
                     <li class="casestudy-item">
                         <a href="#" class="casestudy-item-link">
                             <div class="casestudy-item-head">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case03.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case03.jpg" alt="">
                             </div>
                             <!-- /.casestudy-item-head -->
                             <div class="casestudy-item-body">
@@ -224,7 +224,7 @@
                     <li class="casestudy-item">
                         <a href="#" class="casestudy-item-link">
                             <div class="casestudy-item-head">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case04.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case04.jpg" alt="">
                             </div>
                             <!-- /.casestudy-item-head -->
                             <div class="casestudy-item-body">
@@ -241,7 +241,7 @@
                     <li class="casestudy-item">
                         <a href="#" class="casestudy-item-link">
                             <div class="casestudy-item-head">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case05.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="">
                             </div>
                             <!-- /.casestudy-item-head -->
                             <div class="casestudy-item-body">
@@ -258,7 +258,7 @@
                     <li class="casestudy-item">
                         <a href="#" class="casestudy-item-link">
                             <div class="casestudy-item-head">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case06.jpg" alt="">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="">
                             </div>
                             <!-- /.casestudy-item-head -->
                             <div class="casestudy-item-body">

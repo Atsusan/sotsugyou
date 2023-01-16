@@ -29,7 +29,7 @@
           <div class="download-item">
             <h2 class="download-item-title">世界で活躍できるグローバルな人材を育てる３つの研修プログラムをご用意しております。</h2><!-- /.download-item-title -->
             <div class="download-item-img">
-              <img src="<?php echo get_template_directory_uri(); ?>/img/pamphlet.jpg" alt="pamphlet.jpg">
+              <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/pamphlet.jpg" alt="pamphlet.jpg">
             </div><!-- /.download-item-img -->
             <p class="download-item-text">
               急速にグローバルに活躍できる企業が生き残る時代と移り変わりました。

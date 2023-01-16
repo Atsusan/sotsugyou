@@ -64,7 +64,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case01.jpg" alt="img-case01.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case01.jpg" alt="img-case01.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -102,7 +102,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case02.jpg" alt="img-case02.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="img-case02.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -140,7 +140,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case03.jpg" alt="img-case03.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case03.jpg" alt="img-case03.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -178,7 +178,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case04.jpg" alt="img-case04.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case04.jpg" alt="img-case04.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -230,7 +230,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case05.jpg" alt="img-case05.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="img-case05.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -269,7 +269,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case06.jpg" alt="img-case06.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="img-case06.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -308,7 +308,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case07.jpg" alt="img-case07.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case07.jpg" alt="img-case07.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -362,7 +362,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case08.jpg" alt="img-case08.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case08.jpg" alt="img-case08.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">
@@ -400,7 +400,7 @@
                                     <!-- /.cases-item-name -->
                                 </div><!-- /.cases-item-titles -->
                                 <div class="cases-item-logo">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/img-case09.jpg" alt="img-case09.jpg">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case09.jpg" alt="img-case09.jpg">
                                 </div><!-- /.cases-item-logo -->
                             </div><!-- /.cases-item-head -->
                             <div class="cases-item-body">

@@ -30,7 +30,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -48,7 +48,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -66,7 +66,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -83,7 +83,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -100,7 +100,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -117,7 +117,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -134,7 +134,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -151,7 +151,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -168,7 +168,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -185,7 +185,7 @@
                     <li class="news-homeItem">
                         <a href="#" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                             </div><!-- /.news-homeItem-img -->
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
@@ -223,7 +223,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -239,7 +239,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -255,7 +255,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -271,7 +271,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -287,7 +287,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">

@@ -32,7 +32,7 @@
                 </div><!-- /.service-introduction -->
                 <article class="service-detail-item">
                     <div class="service-detail-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/x2/img-service-detail01.jpg" alt="ビジネス英語研修">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail01.jpg" alt="ビジネス英語研修">
                     </div>
                     <div class="service-detail-main">
                         <span class="service-detail-numbertag service-detail-numbertag-01">
@@ -69,7 +69,7 @@
                 <article class="service-detail-item section-background-skew service-detail-background-skew">
                     <div class="service-detail-inner inner skew-reset">
                         <div class="service-detail-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/img-service-detail02.jpg" alt="異文化コミュニケーション">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail02.jpg" alt="異文化コミュニケーション">
                         </div>
                         <div class="service-detail-main">
                             <span class="service-detail-numbertag service-detail-numbertag-02">
@@ -107,7 +107,7 @@
                 </article>
                 <article class="service-detail-item">
                     <div class="service-detail-img">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/x2/img-service-detail03.jpg" alt="ビジネス留学プログラム">
+                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail03.jpg" alt="ビジネス留学プログラム">
                     </div>
                     <div class="service-detail-main">
                         <span class="service-detail-numbertag service-detail-numbertag-03">

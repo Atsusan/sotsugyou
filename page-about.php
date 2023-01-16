@@ -6,7 +6,7 @@
         <div class="inner">
              <h1 class="header-logo">
                 <a href="#">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo/company-logo.svg" alt="Global Standard">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/company-logo.svg" alt="Global Standard">
                 </a>
             </h1><!-- /.header-logo -->
 
@@ -162,18 +162,18 @@
                             </p>
                             <div class="company-directors-sns">
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
                         </div>
                         <figure class="company-directors-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/company-profile01.jpg" alt="波瑠慶太">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/company-profile01.jpg" alt="波瑠慶太">
                         </figure>
                     </li>
                     <li class="company-directors-item">
@@ -189,18 +189,18 @@
                             </p>
                             <div class="company-directors-sns">
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
                         </div>
                         <figure class="company-directors-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/company-profile02.jpg" alt="ジャック・スミス">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/company-profile02.jpg" alt="ジャック・スミス">
                         </figure>
                     </li>
                     <li class="company-directors-item">
@@ -216,18 +216,18 @@
                             </p>
                             <div class="company-directors-sns">
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
                                 <a href="#" class="company-directors-sns-link">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
+                                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
                         </div>
                         <figure class="company-directors-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/x2/company-profile03.jpg" alt="メアリー・ジャクソン">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/company-profile03.jpg" alt="メアリー・ジャクソン">
                         </figure>
                     </li>
                 </ul>

@@ -33,7 +33,7 @@
                 <h1 class="single-title">常にハイパフォーマンスを目指すグローバルビジネスの現場を肌で感じることで、自走・自立できる思考力・適応力を醸成する起爆剤研修。</h1>
 
                 <div class="single-thumbnail">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/single.jpg" alt="single.jpg">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/single.jpg" alt="single.jpg">
                 </div><!-- /.single-thumbnail -->
 
                 <article class="single-content">
@@ -74,7 +74,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -90,7 +90,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -106,7 +106,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -122,7 +122,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
@@ -138,7 +138,7 @@
                 <li class="news-aside-item">
                     <a href="#" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icatch-news.jpg" alt="icatch-news.jpg">
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
