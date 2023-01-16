@@ -19,7 +19,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body>
 <?php wp_body_open(); ?>
     <header id="header">
         <div class="inner">
