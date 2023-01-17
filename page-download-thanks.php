@@ -1,13 +1,6 @@
 <?php get_header(); ?>
 
-    <div class="download-mainvisual mv">
-        <div class="download-background-img mv-background-img"></div>
-        <div class="download-title-area mv-title-area">
-            <h2 class="download-title section-title mv-title"><span>download</span></h2>
-            <p class="download-sub section-sub mv-subtitle"><span>資料ダウンロード</span></p>
-        </div>
-    </div>
-    <!-- /.download-mainvisual -->
+
 
     <div class="breadclumb">
         <div class="inner">

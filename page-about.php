@@ -8,14 +8,6 @@ get_header(); ?>
 
     <main>
 
-        <div class="company-mainvisual mv">
-            <div class="company-background-img mv-background-img"></div>
-            <div class="company-title-area mv-title-area">
-                <h2 class="company-title section-title mv-title"><span>about-us</span></h2>
-                <p class="company-sub section-sub mv-subtitle"><span>当社について</span></p>
-            </div>
-        </div>
-        <!-- /.company-mainvisual -->
 
         <div class="breadclumb">
             <div class="inner">

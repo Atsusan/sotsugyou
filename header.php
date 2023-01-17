@@ -20,11 +20,11 @@
 </head>
 
 <body>
-<?php wp_body_open(); ?>
+    <?php wp_body_open(); ?>
     <header id="header">
         <div class="inner">
-             <h1 class="header-logo">
-                <a href="<?php echo esc_url(home_url('/'))?>">
+            <h1 class="header-logo">
+                <a href="<?php echo esc_url(home_url('/')) ?>">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/company-logo.svg" alt="<?php bloginfo('name'); ?>">
                 </a>
             </h1><!-- /.header-logo -->
@@ -57,8 +57,7 @@
                     <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/service">サービス</a></li>
                     <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/case">導入事例</a></li>
                     <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/news">お知らせ</a></li>
-                    <li class="drawer-nav-item btn btn-drawer-filled"><a class="drawer-nav-item-link"
-                            href="<?php echo esc_url(bloginfo('url')); ?>/download">資料ダウンロード</a></li>
+                    <li class="drawer-nav-item btn btn-drawer-filled"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/download">資料ダウンロード</a></li>
                     <li class="drawer-nav-item btn btn-drawer-float"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/contact">お問い合わせ</a>
                     </li>
                 </ul>
@@ -67,3 +66,7 @@
         </div><!-- /.inner -->
     </header>
     <!-- /#header -->
+
+    <!-- header-mainvisual -->
+     <?php get_template_part('template-parts/header-mainvisual'); ?>
+    <!-- end header-mainvisual -->

@@ -1,42 +1,5 @@
 <?php get_header(); ?>
 
-<!-- mainvisual -->
-<div id="mainvisual">
-    <div class="inner">
-        <!-- Slider main container -->
-        <div class="swiper">
-            <!-- Additional required wrapper -->
-            <ul class="swiper-wrapper">
-                <!-- Slides -->
-                <li class="swiper-slide">
-                    <picture class="mainvisual-picture">
-                        <source srcset="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/mv-1.jpg" media="(min-width: 768px)">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/sp/hero1.jpg" alt="写真1枚目">
-                    </picture>
-                </li>
-                <li class="swiper-slide">
-                    <picture class="mainvisual-picture">
-                        <source srcset="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/mv-2.jpg" media="(min-width: 768px)">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/sp/hero2.jpg" alt="写真2枚目">
-                    </picture>
-                </li>
-                <li class="swiper-slide">
-                    <picture class="mainvisual-picture">
-                        <source srcset="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/mv-3.jpg" media="(min-width: 768px)">
-                        <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/sp/hero3.jpg" alt="写真3枚目">
-                    </picture>
-                </li>
-            </ul>
-        </div>
-        <div class="mainvisual-text-container">
-            <p class="mainvisual-title"><span>YOU&nbsp;CAN&nbsp;<br class="is-xsp">CHANGE<br>THE&nbsp;WORLD</span></p>
-            <p class="mainvisual-sub"><span>世界で活躍できるグローバルな人材を育てる</span></p>
-        </div>
-        <!-- /.mainvisual-text-container -->
-    </div>
-    <!-- /.inner -->
-</div>
-<!-- /#mainvisual -->
 
 <main>
     <section id="about" class="about section about-background-skew section-background-skew">

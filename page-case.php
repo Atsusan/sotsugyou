@@ -4,15 +4,6 @@ Template Name: 研修事例
 */
 get_header(); ?>
 
-    <div class="case-mainvisual mv">
-        <div class="case-background-img mv-background-img"></div>
-        <div class="case-title-area mv-title-area">
-            <h2 class="case-title section-title mv-title"><span>case&nbsp;study</span></h2>
-            <p class="case-sub section-sub mv-subtitle"><span>導入事例</span></p>
-        </div>
-    </div>
-    <!-- /.case-mainvisual -->
-
     <div class="breadclumb">
         <div class="inner">
             <ul class="breadclumb-tag-list">

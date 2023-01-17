@@ -4,14 +4,6 @@ Template Name: お問い合わせ
 */
 get_header(); ?>
 
-    <div class="contact-mainvisual mv">
-        <div class="contact-background-img mv-background-img"></div>
-        <div class="contact-title-area mv-title-area">
-            <h2 class="contact-title section-title mv-title"><span>contact</span></h2>
-            <p class="contact-sub section-sub mv-subtitle"><span>お問い合わせ</span></p>
-        </div>
-    </div>
-    <!-- /.contact-mainvisual -->
 
     <div class="breadclumb">
         <div class="inner">

@@ -1,14 +1,10 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: お知らせ
+*/
+get_header(); ?>
 
-    <!-- news-mainvisual -->
-    <div class="news-mainvisual mv">
-        <div class="news-background-img mv-background-img"></div>
-        <div class="news-title-area mv-title-area">
-            <h2 class="news-homeTitle section-title mv-title"><span>news</span></h2>
-            <p class="news-homeSub section-sub mv-subtitle"><span>ニュース</span></p>
-        </div>
-    </div>
-    <!-- news-mainvisual -->
+
 
     <!-- breadclumb -->
     <div class="breadclumb">

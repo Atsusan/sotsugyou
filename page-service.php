@@ -5,16 +5,6 @@ Template Name: 研修紹介
 get_header(); ?>
     <main>
 
-        <!-- service-mainvisual -->
-        <div class="service-mainvisual mv">
-            <div class="service-background-img mv-background-img"></div>
-            <div class="service-title-area mv-title-area">
-                <h2 class="service-title section-title mv-title"><span>service</span></h2>
-                <p class="service-sub section-sub mv-subtitle"><span>サービス</span></p>
-            </div>
-        </div>
-        <!-- service-mainvisual -->
-
         <!-- breadclumb -->
         <div class="breadclumb">
             <div class="inner">
