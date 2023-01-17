@@ -21,7 +21,7 @@
     color: #888888;
     font-size: m.rem(12);
 
-    &:not(:first-child) {
+    &:not(:first-of-type) {
         margin-left: 28px;
         position: relative;
 
@@ -37,8 +37,26 @@
         }
     }
 
-    &:last-child {
+    &:last-of-type {
         color: v.$text-bl;
+    }
+}
+
+ .breadcrumb-tag-list > span {
+    margin-left: 28px;
+    font-size: m.rem(12);
+    color: #888888;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: calc((8px + 12px) * -1);
+        transform: translateY(-50%);
+        background: url(../img/parts/parts-breadcrumb.svg) no-repeat center center/contain;
+        width: 12px;
+        height: 17px;
     }
 }
 /*============================================================

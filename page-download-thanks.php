@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: 資料ダウンロード完了
+*/
+get_header(); ?>
 
     <!-- main -->
 

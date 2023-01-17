@@ -1,4 +1,8 @@
-<?php get_header(); ?>
+<?php
+/*
+Template Name: お問い合わせ送信完了
+*/
+get_header(); ?>
 
     <!-- main -->
 
