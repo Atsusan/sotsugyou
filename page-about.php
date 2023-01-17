@@ -7,18 +7,6 @@ get_header(); ?>
     <!-- main -->
 
     <main>
-
-
-        <div class="breadclumb">
-            <div class="inner">
-                <ul class="breadclumb-tag-list">
-                    <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">ホーム</a></li>
-                    <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">当社について</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.breadclumb -->
-
         <section id="message" class="message section">
             <div class="inner">
                 <div class="message-item">

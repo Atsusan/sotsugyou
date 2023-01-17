@@ -971,34 +971,36 @@ body.is-open .drawer-nav-item-link {
 /*============================================================
 # breakclumb
 ============================================================= */
-.breadclumb {
+.breadcrumb {
   margin-top: 12px;
 }
 
-.breadclumb-tag-list {
+.breadcrumb-tag-list {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.breadclumb-item {
+.breadcrumb-item {
   color: #888888;
   font-size: 0.75rem;
 }
-.breadclumb-item:not(:first-child) {
+.breadcrumb-item:not(:first-child) {
   margin-left: 28px;
-  color: #1a1a1a;
   position: relative;
 }
-.breadclumb-item:not(:first-child)::before {
+.breadcrumb-item:not(:first-child)::before {
   content: "";
   position: absolute;
   top: 50%;
   left: -20px;
   transform: translateY(-50%);
-  background: url(../img/parts/parts-breadclumb.svg) no-repeat center center/contain;
+  background: url(../img/parts/parts-breadcrumb.svg) no-repeat center center/contain;
   width: 12px;
   height: 17px;
+}
+.breadcrumb-item:last-child {
+  color: #1a1a1a;
 }
 
 /*============================================================

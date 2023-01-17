@@ -70,3 +70,7 @@
     <!-- header-mainvisual -->
      <?php get_template_part('template-parts/header-mainvisual'); ?>
     <!-- end header-mainvisual -->
+
+    <!-- breadcrumb -->
+    <?php get_template_part('template-parts/breadcrumb'); ?>
+    <!-- /.breadcrumb -->

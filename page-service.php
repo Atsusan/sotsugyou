@@ -4,18 +4,6 @@ Template Name: 研修紹介
 */
 get_header(); ?>
     <main>
-
-        <!-- breadclumb -->
-        <div class="breadclumb">
-            <div class="inner">
-                <ul class="breadclumb-tag-list">
-                    <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">ホーム</a></li>
-                    <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">サービス</a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.breadclumb -->
-
         <!-- service-detail -->
         <section id="service-detail" class="service-detail section">
             <div class="inner">

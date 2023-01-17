@@ -4,17 +4,6 @@ Template Name: 資料ダウンロード
 */
 get_header(); ?>
 
-
-  <div class="breadclumb">
-    <div class="inner">
-      <ul class="breadclumb-tag-list">
-        <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">ホーム</a></li>
-        <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">資料ダウンロード</a></li>
-      </ul>
-    </div>
-  </div>
-  <!-- /.breadclumb -->
-
   <!-- main -->
 
   <main>

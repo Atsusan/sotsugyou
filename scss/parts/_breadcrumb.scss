@@ -8,22 +8,21 @@
 /*============================================================
 # breakclumb
 ============================================================= */
-.breadclumb {
+.breadcrumb {
     margin-top: 12px;
 }
 
-.breadclumb-tag-list {
+.breadcrumb-tag-list {
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-.breadclumb-item {
+.breadcrumb-item {
     color: #888888;
     font-size: m.rem(12);
 
     &:not(:first-child) {
         margin-left: 28px;
-        color: v.$text-bl;
         position: relative;
 
         &::before {
@@ -32,10 +31,14 @@
             top: 50%;
             left: calc((8px + 12px) * -1);
             transform: translateY(-50%);
-            background: url(../img/parts/parts-breadclumb.svg) no-repeat center center/contain;
+            background: url(../img/parts/parts-breadcrumb.svg) no-repeat center center/contain;
             width: 12px;
             height: 17px;
         }
+    }
+
+    &:last-child {
+        color: v.$text-bl;
     }
 }
 /*============================================================
