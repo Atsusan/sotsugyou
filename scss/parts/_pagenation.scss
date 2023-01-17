@@ -95,3 +95,27 @@
             }
     }
 }
+
+
+.entry-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+
+    & > span,
+    & > a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28px;
+        height: 32px;
+        border: 1px solid v.$cBlue;
+    }
+
+    & > span:hover,
+    & > a:hover {
+        opacity: .7;
+    }
+}

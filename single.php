@@ -4,33 +4,46 @@
         <!-- main -->
         <main class="main">
             <section id="single" class="single section">
-                <div class="single-meta">
-                    <span class="single-category">カテゴリ</span>
-                    <time class="single-time" datetime="2021-01-01">2021.01.01</time>
+
+            <?php if(have_posts()): ?>
+                <?php while(have_posts()): ?>
+                    <?php the_post(); ?>
+                    <div class="single-meta">
+
+                    <?php
+                        $category = get_the_category();
+                        if($category[0]):
+                    ?>
+                       <span class="single-category">
+                            <?php echo $category[0]->cat_name; ?>
+                       </span>
+                    <?php endif; ?>
+                    <time class="single-time" datetime="<?php the_time('c'); ?>"><?php the_time('Y.m.d') ?></time>
                 </div><!-- /.single-meta -->
 
-                <h1 class="single-title">常にハイパフォーマンスを目指すグローバルビジネスの現場を肌で感じることで、自走・自立できる思考力・適応力を醸成する起爆剤研修。</h1>
+                <h1 class="single-title"><?php the_title(); ?></h1>
 
                 <div class="single-thumbnail">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/single.jpg" alt="single.jpg">
+                    <?php if(has_post_thumbnail()): ?>
+                    <?php the_post_thumbnail(); ?>
+                    <?php endif; ?>
                 </div><!-- /.single-thumbnail -->
 
                 <article class="single-content">
-                    <h2>H2見出しH2見出しH2見出し</h2>
-                    <p>ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。</p>
-                    <h3>H3見出しH3見出しH3見出し</h3>
-                    <p>ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。</p>
-                    <h4>H4見出しH4見出しH4見出し</h4>
-                    <p>ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。</p>
-                    <ul>
-                        <li>リスト</li>
-                        <li>リスト</li>
-                        <li>リスト</li>
-                    </ul>
-                    <blockquote class="wp-block-quote">
-                        引用した文章が入ります。ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。今後の目標はプロジェクトマネジメントに特化したマネージャーになることです。ビジネスパーソンとの交流の中で、より具体的に現地で働く人々の仕事に対する熱意や誇り、それぞれが持つリーダーシップなどを学ぶことができ非常に良い経験となりました。
-                    </blockquote>
-                </article>
+                   <?php the_content(); ?>
+                   <!-- 改ページ対策 -->
+                   <?php
+                    wp_link_pages(
+                        array(
+                            'before' => '<nav class="entry-links">',
+                            'after' => '</nav>',
+                            'link_before' => '',
+                            'link_after' => '',
+                            'next_or_number' => 'number',
+                            'separator' => '',
+                        )
+                    );
+                   ?>
                 <!-- /.single-content -->
 
                 <div class="single-post-pagenation">
@@ -41,6 +54,8 @@
                         <a href="#" rel="next">次の記事へ&nbsp;></a>
                     </div><!-- /.single-post-pagenation-next -->
                 </div><!-- /.single-post-list -->
+                <?php endwhile; ?>
+            <?php endif; ?>
             </section><!-- /#single.single section -->
 
         </main>

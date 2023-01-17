@@ -1101,6 +1101,25 @@ body.is-open .drawer-nav-item-link {
   }
 }
 
+.entry-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+}
+.entry-links > span, .entry-links > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 32px;
+  border: 1px solid #023E78;
+}
+.entry-links > span:hover, .entry-links > a:hover {
+  opacity: 0.7;
+}
+
 /*============================================================
 # ページ間共通設定
 ============================================================= */
