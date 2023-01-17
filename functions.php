@@ -47,3 +47,17 @@ function post_has_archive($args, $post_type) {
 
   add_filter('register_post_type_args', 'post_has_archive', 10, 2);
 
+
+/**
+ *
+ * breadcrumb　カスタマイズ
+ *
+ */
+// タイトルの書き換え
+function my_bcn_breadcrumb_title( $title, $this_type, $this_id ) {
+	if (is_page('news')) {
+		$title = 'ニュース';
+	}
+	return $title;
+};
+add_filter( 'bcn_breadcrumb_title', 'my_bcn_breadcrumb_title', 10, 3 );
