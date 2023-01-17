@@ -30,3 +30,19 @@ function my_script_init() {
     wp_enqueue_script('main-javascript', get_template_directory_uri() . "/js/script.js", array("jquery"), filemtime(get_theme_file_path('js/script.js')), true);
 }
 add_action('wp_enqueue_scripts', 'my_script_init');
+
+/**
+ *
+ * アーカイブページ（記事一覧ページ）の追加
+ *
+ */
+
+function post_has_archive($args, $post_type) {
+    if('post'== $post_type) {
+      $args['rewrite'] = true;
+      $args['label'] = 'お知らせ';
+    }
+    return $args;
+  }
+
+  add_filter('register_post_type_args', 'post_has_archive', 10, 2);

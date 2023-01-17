@@ -13,6 +13,7 @@
     <div class="breadclumb">
         <div class="inner">
             <ul class="breadclumb-tag-list">
+                <?php bcn_display(); ?>
                 <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">ホーム</a></li>
                 <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">ニュース</a></li>
                 <li class="breadclumb-item"><a href="#" class="breadclumb-item-link">ニュース詳細</a></li>

@@ -33,11 +33,11 @@
                 <ul class="nav-list">
                     <li class="nav-item"><a href="<?php echo esc_url(home_url('/')); ?>" class="nav-item-link">トップ</a></li>
                     <li class="nav-item"><a href="<?php bloginfo('url'); ?>/about" class="nav-item-link">当社について</a></li>
-                    <li class="nav-item"><a href="/page-service.html" class="nav-item-link">サービス</a></li>
-                    <li class="nav-item"><a href="/page-case.html" class="nav-item-link">導入事例</a></li>
-                    <li class="nav-item"><a href="/home.html" class="nav-item-link">お知らせ</a></li>
-                    <li class="nav-item-download btn btn-float"><a href="/page-download.html" class="nav-item-link">資料ダウンロード</a></li>
-                    <li class="nav-item-content btn btn-filled"><a href="/page-contact.html" class="nav-item-link">お問い合わせ</a></li>
+                    <li class="nav-item"><a href="<?php bloginfo('url'); ?>/service" class="nav-item-link">サービス</a></li>
+                    <li class="nav-item"><a href="<?php bloginfo('url'); ?>/case" class="nav-item-link">導入事例</a></li>
+                    <li class="nav-item"><a href="<?php echo home_url(); ?>/news" class="nav-item-link">お知らせ</a></li>
+                    <li class="nav-item-download btn btn-float"><a href="<?php bloginfo('url'); ?>/download" class="nav-item-link">資料ダウンロード</a></li>
+                    <li class="nav-item-content btn btn-filled"><a href="<?php bloginfo('url'); ?>/contact" class="nav-item-link">お問い合わせ</a></li>
                 </ul>
                 <!-- /.nav-list -->
             </nav>
@@ -52,14 +52,14 @@
             <nav class="drawer-nav">
                 <ul class="drawer-nav-list">
                     <!-- ドロワーのアイテム部分 -->
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="/front-page.html">トップ</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="/page-about.html">当社について</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="/page-service.html">サービス</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="/page-case.html">導入事例</a></li>
-                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="/home.html">お知らせ</a></li>
+                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(home_url('/')); ?>">トップ</a></li>
+                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/about">当社について</a></li>
+                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/service">サービス</a></li>
+                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/case">導入事例</a></li>
+                    <li class="drawer-nav-item"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/news">お知らせ</a></li>
                     <li class="drawer-nav-item btn btn-drawer-filled"><a class="drawer-nav-item-link"
-                            href="/page-download.html">資料ダウンロード</a></li>
-                    <li class="drawer-nav-item btn btn-drawer-float"><a class="drawer-nav-item-link" href="/page-contact.html">お問い合わせ</a>
+                            href="<?php echo esc_url(bloginfo('url')); ?>/download">資料ダウンロード</a></li>
+                    <li class="drawer-nav-item btn btn-drawer-float"><a class="drawer-nav-item-link" href="<?php echo esc_url(bloginfo('url')); ?>/contact">お問い合わせ</a>
                     </li>
                 </ul>
                 <!-- ドロワー 実装-->
