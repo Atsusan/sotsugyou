@@ -1056,6 +1056,8 @@ body.is-open .drawer-nav-item-link {
 }
 .page-numbers:hover {
   opacity: 0.7;
+  background-color: #023E78;
+  color: #fff;
 }
 
 .current {
