@@ -96,7 +96,29 @@
     }
 }
 
+/* 個別投稿ページ用ページネーション */
+.nav-links {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    .nav-previous,
+    .nav-next {
+        font-size: m.rem(14);
+        line-height: 1;
+        color: v.$cBlue;
+        padding: 10px 16px;
+        border: 1px solid v.$cBlue;
+        border-radius: 4px;
+
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
+
+/* パンくずリスト */
 .entry-links {
     display: flex;
     justify-content: center;

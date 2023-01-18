@@ -561,28 +561,6 @@
     }
 }
 
-.single-post-pagenation {
-    margin-top: 41px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &-prev,
-    &-next {
-        font-size: m.rem(14);
-        line-height: 1;
-        color: v.$cBlue;
-        padding: 10px 16px;
-        border: 1px solid v.$cBlue;
-        border-radius: 4px;
-
-        &:hover {
-            opacity: .8;
-        }
-    }
-}
-
-
 /*============================================================
 # end  news  (home,single)
 ============================================================= */

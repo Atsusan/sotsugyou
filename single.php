@@ -31,7 +31,7 @@
 
                 <article class="single-content">
                    <?php the_content(); ?>
-                   <!-- 改ページ対策 -->
+                   <!-- 改ページ対策  php -->
                    <?php
                     wp_link_pages(
                         array(
@@ -46,14 +46,19 @@
                    ?>
                 <!-- /.single-content -->
 
-                <div class="single-post-pagenation">
-                    <div class="single-post-pagenation-prev">
-                        <a href="#" rel="prev"><&nbsp;前の記事へ</a>
-                    </div><!-- /.single-post-pagenation-prev -->
-                    <div class="single-post-pagenation-next">
-                        <a href="#" rel="next">次の記事へ&nbsp;></a>
-                    </div><!-- /.single-post-pagenation-next -->
-                </div><!-- /.single-post-list -->
+                <!-- お知らせ投稿用ページネーション -->
+                <?php
+                    $args = array(
+                        'mid_size' => 1,
+                        'prev_text' => '&lt;&nbsp;前の記事へ',
+                        'next_text' => '次の記事へ&nbsp;&gt;',
+                        'screen_reader_text' => '',
+                    );
+                    the_post_navigation($args);
+                ?>
+                <!--お知らせ投稿用ページネーション -->
+
+
                 <?php endwhile; ?>
             <?php endif; ?>
             </section><!-- /#single.single section -->

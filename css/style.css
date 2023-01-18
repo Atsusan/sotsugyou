@@ -1118,6 +1118,28 @@ body.is-open .drawer-nav-item-link {
   }
 }
 
+/* 個別投稿ページ用ページネーション */
+.nav-links {
+  margin-top: 41px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links .nav-previous,
+.nav-links .nav-next {
+  font-size: 0.875rem;
+  line-height: 1;
+  color: #023E78;
+  padding: 10px 16px;
+  border: 1px solid #023E78;
+  border-radius: 4px;
+}
+.nav-links .nav-previous:hover,
+.nav-links .nav-next:hover {
+  opacity: 0.8;
+}
+
+/* パンくずリスト */
 .entry-links {
   display: flex;
   justify-content: center;
@@ -3834,24 +3856,6 @@ body.is-open .drawer-nav-item-link {
   height: 160px;
   z-index: -1;
   background: url(../img/parts/parts-quote.svg) no-repeat center center/contain;
-}
-
-.single-post-pagenation {
-  margin-top: 41px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.single-post-pagenation-prev, .single-post-pagenation-next {
-  font-size: 0.875rem;
-  line-height: 1;
-  color: #023E78;
-  padding: 10px 16px;
-  border: 1px solid #023E78;
-  border-radius: 4px;
-}
-.single-post-pagenation-prev:hover, .single-post-pagenation-next:hover {
-  opacity: 0.8;
 }
 
 /*============================================================
