@@ -1024,16 +1024,16 @@ body.is-open .drawer-nav-item-link {
 #  end breadcrumb
 ============================================================= */
 /*============================================================
-# pagenation
+# pagination
 ============================================================= */
-.pagenation {
+.pagination {
   margin-top: 60px;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
 @media (max-width: 767px) {
-  .pagenation {
+  .pagination {
     margin-top: 40px;
     gap: 6px;
   }
@@ -1064,16 +1064,16 @@ body.is-open .drawer-nav-item-link {
   cursor: pointer;
 }
 
-.pagenation-previous {
+.pagination-previous {
   margin-right: 20px;
   position: relative;
 }
 @media (max-width: 767px) {
-  .pagenation-previous {
+  .pagination-previous {
     margin-right: 0px;
   }
 }
-.pagenation-previous::before {
+.pagination-previous::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1084,23 +1084,23 @@ body.is-open .drawer-nav-item-link {
   background: url(../img/parts/icon-chevron-left.svg) no-repeat center center/contain;
 }
 @media (max-width: 767px) {
-  .pagenation-previous::before {
+  .pagination-previous::before {
     width: 13px;
     height: 13px;
     transform: translate(-50%, -50%);
   }
 }
 
-.pagenation-next {
+.pagination-next {
   margin-left: 20px;
   position: relative;
 }
 @media (max-width: 767px) {
-  .pagenation-next {
+  .pagination-next {
     margin-left: 0px;
   }
 }
-.pagenation-next::before {
+.pagination-next::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -1111,7 +1111,7 @@ body.is-open .drawer-nav-item-link {
   background: url(../img/parts/icon-chevron-right.svg) no-repeat center center/contain;
 }
 @media (max-width: 767px) {
-  .pagenation-next::before {
+  .pagination-next::before {
     width: 13px;
     height: 13px;
     transform: translate(50%, -50%);

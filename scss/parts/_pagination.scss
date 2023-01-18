@@ -6,9 +6,9 @@
 
 
 /*============================================================
-# pagenation
+# pagination
 ============================================================= */
-.pagenation {
+.pagination {
     margin-top: 60px;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 
-.pagenation-previous {
+.pagination-previous {
     margin-right: 20px;
     position: relative;
 
@@ -70,7 +70,7 @@
             }
     }
 }
-.pagenation-next {
+.pagination-next {
     margin-left: 20px;
     position: relative;
 

@@ -184,16 +184,16 @@ get_header(); ?>
                     </li><!-- /.news-homeItem -->
                 </ul>
                 <!-- /.news-list -->
-                <div class="pagenation news-pagenation">
-                    <a href="#" class="page-number pagenation-previous"><div></div></a>
+                <div class="pagination news-pagination">
+                    <a href="#" class="page-number pagination-previous"><div></div></a>
                     <a href="#" class="page-number number">1</a>
                     <span class="page-number number current">2</span>
                     <a href="#" class="page-number number">3</a>
                     <a href="#" class="page-number number">4</a>
                     <a href="#" class="page-number number">5</a>
-                    <a href="#" class="page-number pagenation-next"><div></div></a>
+                    <a href="#" class="page-number pagination-next"><div></div></a>
                 </div>
-                <!-- /.pagenation news-pagenation -->
+                <!-- /.pagination news-pagination -->
             </section>
             <!-- /#news.news section -->
         </main>
