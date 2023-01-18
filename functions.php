@@ -65,11 +65,10 @@ add_filter( 'bcn_breadcrumb_title', 'my_bcn_breadcrumb_title', 10, 3 );
 // single.php表示時、親改装追加
 function my_static_breadcrumb_adder($breadcrumb_trail) {
     if (is_single()) {
-        // 新規のtrailオブジェクトを末尾に追加する
         $item = new bcn_breadcrumb('ニュース', null, array(), home_url('/news'), null, true);
-        $stuck = array_pop($breadcrumb_trail->breadcrumbs); // HOME 一時退避
-        $breadcrumb_trail->breadcrumbs[] = $item; //ニュース 追加
-        $breadcrumb_trail->breadcrumbs[] = $stuck; //HOME 戻す
+        $stuck = array_pop($breadcrumb_trail->breadcrumbs);
+        $breadcrumb_trail->breadcrumbs[] = $item;
+        $breadcrumb_trail->breadcrumbs[] = $stuck;
     }
 };
 add_action('bcn_after_fill', 'my_static_breadcrumb_adder');
