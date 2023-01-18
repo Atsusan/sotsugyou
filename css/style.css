@@ -1039,7 +1039,7 @@ body.is-open .drawer-nav-item-link {
   }
 }
 
-.page-number {
+.page-numbers {
   width: 50px;
   height: 50px;
   background-color: #F8F8F8;
@@ -1049,12 +1049,12 @@ body.is-open .drawer-nav-item-link {
   transition: all 0.3s ease;
 }
 @media (max-width: 767px) {
-  .page-number {
+  .page-numbers {
     width: 40px;
     height: 40px;
   }
 }
-.page-number:hover {
+.page-numbers:hover {
   opacity: 0.7;
 }
 
@@ -1064,54 +1064,54 @@ body.is-open .drawer-nav-item-link {
   cursor: pointer;
 }
 
-.pagination-previous {
+.prev {
   margin-right: 20px;
   position: relative;
 }
 @media (max-width: 767px) {
-  .pagination-previous {
+  .prev {
     margin-right: 0px;
   }
 }
-.pagination-previous::before {
+.prev::before {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(15%, -50%);
+  transform: translate(-50%, -50%);
   width: 16px;
   height: 16px;
   background: url(../img/parts/icon-chevron-left.svg) no-repeat center center/contain;
 }
 @media (max-width: 767px) {
-  .pagination-previous::before {
+  .prev::before {
     width: 13px;
     height: 13px;
     transform: translate(-50%, -50%);
   }
 }
 
-.pagination-next {
+.next {
   margin-left: 20px;
   position: relative;
 }
 @media (max-width: 767px) {
-  .pagination-next {
+  .next {
     margin-left: 0px;
   }
 }
-.pagination-next::before {
+.next::before {
   content: "";
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(15%, -50%);
+  transform: translate(50%, -50%);
   width: 16px;
   height: 16px;
   background: url(../img/parts/icon-chevron-right.svg) no-repeat center center/contain;
 }
 @media (max-width: 767px) {
-  .pagination-next::before {
+  .next::before {
     width: 13px;
     height: 13px;
     transform: translate(50%, -50%);

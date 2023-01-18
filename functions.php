@@ -73,3 +73,21 @@ function my_static_breadcrumb_adder($breadcrumb_trail) {
 };
 add_action('bcn_after_fill', 'my_static_breadcrumb_adder');
 
+/**
+ *
+ * サブクエリでのページネーション
+ *
+ */
+
+function pagination( $the_query ) {
+    $big = 999999999;
+    echo paginate_links( array(
+      'base'         => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+      'current'      => max( 1, get_query_var( 'paged' ) ),
+      'format'       => 'page/%#%/',
+      'prev_text'    => '',
+      'next_text'    => '',
+      'type'         => 'list',
+      'total'        => $the_query->max_num_pages
+    ) );
+}

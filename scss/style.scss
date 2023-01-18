@@ -11,7 +11,7 @@
     @use 'modules/floating'; // floatingの設定
     @use 'modules/swiper'; // swiperの設定
 
-// Parts読込み
+// Parts読込み/
     @use 'parts/button.scss'; // buttonのコンポーネント
     @use 'parts/breadcrumb'; // breadcrumbのコンポーネント
     @use 'parts/pagination'; // paginationのコンポーネント
