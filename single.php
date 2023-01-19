@@ -9,24 +9,14 @@
                 <?php while(have_posts()): ?>
                     <?php the_post(); ?>
                     <div class="single-meta">
-
-                    <?php
-                        $category = get_the_category();
-                        if($category[0]):
-                    ?>
-                       <span class="single-category">
-                            <?php echo $category[0]->cat_name; ?>
-                       </span>
-                    <?php endif; ?>
+                    <?php my_the_category('single-category'); ?>
                     <time class="single-time" datetime="<?php the_time('c'); ?>"><?php the_time('Y.m.d') ?></time>
                 </div><!-- /.single-meta -->
 
                 <h1 class="single-title"><?php the_title(); ?></h1>
 
                 <div class="single-thumbnail">
-                    <?php if(has_post_thumbnail()): ?>
-                    <?php the_post_thumbnail(); ?>
-                    <?php endif; ?>
+                    <?php my_post_thumbanil(); ?>
                 </div><!-- /.single-thumbnail -->
 
                 <article class="single-content">
