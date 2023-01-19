@@ -91,3 +91,42 @@ function pagination( $the_query ) {
       'total'        => $the_query->max_num_pages
     ) );
 }
+
+
+/**
+ *
+ * 独自関数
+ *
+ */
+
+// タイトルの文字制限関数
+function my_limit_title($count) {
+  $text = get_the_title();
+  $limit = $count;
+
+  if(mb_strlen($text) > $limit) {
+    $title = mb_substr($text,0,$limit);
+    echo $title. '…';
+  } else {
+    echo $text;
+  }
+}
+
+// サムネイルの表示関数
+function my_post_thumbanil() {
+  if(has_post_thumbnail()) {
+    the_post_thumbnail();
+  }
+}
+
+// カテゴリー表示関数  引数にクラス名必須
+
+function my_the_category($className) {
+  $category = get_the_category();
+
+  if($className) {
+    echo '<p class="' . $className . '">' . $category[0]->name . '</p>';
+  } else {
+    echo $category[0]->name;
+  }
+}

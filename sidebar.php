@@ -18,35 +18,16 @@
                 <li class="news-aside-item">
                     <a href="<?php the_permalink(); ?>" class="news-aside-item-link">
                         <div class="news-aside-item-img">
-                            <?php if(has_post_thumbnail()): ?>
-                                <?php the_post_thumbnail(); ?>
-                            <?php endif;?>
+                            <?php my_post_thumbanil(); ?>
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
-                                <?php
-                                    $category = get_the_category();
-                                    if($category[0]):
-                                ?>
-                                    <p class="news-aside-item-meta-category">
-                                        <?php echo $category[0]->name;?>
-                                    </p>
-                                <?php endif; ?>
+                                <?php my_the_category('news-aside-item-meta-category'); ?>
                                 <time class="news-aside-item-meta-time" datetime="<?php the_time('c'); ?>"><?php the_time('Y.m.d'); ?></time>
                             </div><!-- /.news-aside-item-head -->
                             <div class="news-aside-item-body">
                                 <h3 class="news-aside-item-title">
-                                    <?php
-                                        $text = get_the_title();
-                                        $limit = 32;
-
-                                        if(mb_strlen($text) > $limit) {
-                                            $title = mb_substr($text,0,$limit);
-                                            echo $title.'…' ;
-                                        } else {
-                                            echo get_the_title();
-                                        }
-                                    ?>
+                                    <?php my_limit_title(32); ?>
                                 </h3><!-- /.news-aside-item-title -->
                             </div><!-- /.news-aside-item-body -->
                         </div><!-- /.news-aside-item-main -->

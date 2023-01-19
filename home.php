@@ -29,21 +29,12 @@ get_header(); ?>
                     <li class="news-homeItem">
                         <a href="<?php the_permalink(); ?>" class="news-homeItem-link">
                             <div class="news-homeItem-img">
-                                <?php if (has_post_thumbnail()) : ?>
-                                    <?php the_post_thumbnail(); ?>
-                                <?php endif; ?>
+                                <?php my_post_thumbanil();?>
                             </div><!-- /.news-homeItem-img -->
 
                             <div class="news-homeItem-main">
                                 <div class="news-homeItem-head">
-                                    <?php
-                                        $category = get_the_category();
-                                        if($category[0]):
-                                            ?>
-                                        <p class="news-homeItem-meta-category">
-                                            <?php echo $category[0]->name; ?>
-                                        </p>
-                                    <?php endif; ?>
+                                    <?php my_the_category('news-homeItem-meta-category'); ?>
 
                                     <!-- 新着2件のみ new を表示する-->
                                     <?php if($count <= 2): ?>
