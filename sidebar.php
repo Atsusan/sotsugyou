@@ -42,44 +42,9 @@
     </ul>
 
     <h2 class="news-aside-title news-aside-title-category">カテゴリ</h2>
-    <ul class="news-aside-category-list">
-        <li class="news-aside-category-item">
-            <a href="#" class="news-aside-category-item-link">
-                <span class="news-aside-category-item-span"></span>
-                <h3 class="news-aside-category-item-title">テキストテキスト</h3>
-            </a>
-        </li><!-- /.news-aside-category-item -->
-        <li class="news-aside-category-item">
-            <a href="#" class="news-aside-category-item-link">
-                <span class="news-aside-category-item-span"></span>
-                <h3 class="news-aside-category-item-title">テキストテキスト</h3>
-            </a>
-        </li><!-- /.news-aside-category-item -->
-        <li class="news-aside-category-item">
-            <a href="#" class="news-aside-category-item-link">
-                <span class="news-aside-category-item-span"></span>
-                <h3 class="news-aside-category-item-title">テキストテキスト</h3>
-            </a>
-        </li><!-- /.news-aside-category-item -->
-        <li class="news-aside-category-item">
-            <a href="#" class="news-aside-category-item-link">
-                <span class="news-aside-category-item-span"></span>
-                <h3 class="news-aside-category-item-title">テキストテキスト</h3>
-            </a>
-        </li><!-- /.news-aside-category-item -->
-        <li class="news-aside-category-item">
-            <a href="#" class="news-aside-category-item-link">
-                <span class="news-aside-category-item-span"></span>
-                <h3 class="news-aside-category-item-title">テキストテキスト</h3>
-            </a>
-        </li><!-- /.news-aside-category-item -->
-        <li class="news-aside-category-item">
-            <a href="#" class="news-aside-category-item-link">
-                <span class="news-aside-category-item-span"></span>
-                <h3 class="news-aside-category-item-title">テキストテキスト</h3>
-            </a>
-        </li><!-- /.news-aside-category-item -->
-    </ul>
+        <?php if ( is_active_sidebar('main-sidebar') ) : ?>
+            <?php dynamic_sidebar('main-sidebar'); ?>
+        <?php endif; ?>
     <!-- /.news-aside-category-list -->
 </aside>
 <!-- / aside -->

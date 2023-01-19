@@ -339,35 +339,16 @@
 /*============================================================
 # news-aside-category
 ============================================================= */
-.news-aside-category-list {
+.widget_categories {
+
     @include m.mq(sp) {
         margin-bottom: 100px;
     }
 }
-.news-aside-category-item {
+.cat-item {
     border-top: 1px solid #DDD;
-
-    &:last-of-type {
-        border-bottom: 1px solid #DDD;
-    }
-
-    &-link {
-        position: relative;
-    }
-
-    &-span {
-        position: absolute;
-        top: 50%;
-        left: 6%;
-        transform: translateY(-50%);
-        width: 16px;
-        height: 16px;
-        background: url(../img/parts/icon-chevron-right.svg) no-repeat center center/contain;
-    }
-
-    &-title {
-        font-size: m.rem(16);
-        padding: 16px 16px 12px 40px;
+    font-size: m.rem(16);
+    padding: 16px 16px 12px 40px;
 
             @include m.mq(sp) {
                 margin-left: 2.66666vw;
@@ -375,7 +356,25 @@
 
             @include m.mq(xsp) {
                 margin-left: 0;
-                }
+            }
+
+    &:last-of-type {
+        border-bottom: 1px solid #DDD;
+    }
+
+    & > a {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: -22px;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            background: url(../img/parts/icon-chevron-right.svg) no-repeat center center/contain;
+        }
     }
 }
 

@@ -92,6 +92,25 @@ function pagination( $the_query ) {
     ) );
 }
 
+/**
+ *
+ * サイドバーの設置
+ *
+ */
+
+
+function my_theme_widgets_init() {
+  register_sidebar( array(
+    'name' => 'Main Sidebar',
+    'id' => 'main-sidebar',
+    'before_widget' => '<div id="%1$s" class="widget %2$s">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<div class="widget-title">',
+    'after_title'   => '</div>',
+  ));
+}
+add_action( 'widgets_init', 'my_theme_widgets_init' );
+
 
 /**
  *
@@ -130,3 +149,4 @@ function my_the_category($className) {
     echo $category[0]->name;
   }
 }
+
