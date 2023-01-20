@@ -96,13 +96,13 @@ get_header(); ?>
                                 自身も講師を務め、実体験から得られた知見を皆様に還元し、グローバルなビジネス展開をサポートいたします。
                             </p>
                             <div class="company-directors-sns">
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://twitter.com" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://facebook.com" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://www.instagram.com/" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
@@ -123,13 +123,13 @@ get_header(); ?>
                                 皆様に「より気持ちの伝わる英会話」を習得していただくサポートをいたします。
                             </p>
                             <div class="company-directors-sns">
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://twitter.com" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://facebook.com" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://www.instagram.com/" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>
@@ -150,13 +150,13 @@ get_header(); ?>
                                 数多くの契約交渉の経験を活かし、国際ビジネスにおけるコミュニケーションのマナーから応用までお伝えいたします。
                             </p>
                             <div class="company-directors-sns">
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://twitter.com" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-twitter.svg" alt="twitter">
                                 </a>
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://facebook.com" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-facebook.svg" alt="facebook">
                                 </a>
-                                <a href="#" class="company-directors-sns-link">
+                                <a href="https://www.instagram.com/" class="company-directors-sns-link">
                                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/icon/icon-sns-instgram.svg" alt="instgram">
                                 </a>
                             </div>

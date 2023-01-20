@@ -2573,6 +2573,9 @@ body.is-open .drawer-nav-item-link {
   justify-content: flex-start;
   align-items: center;
 }
+.company-directors-sns > a:hover {
+  opacity: 0.7;
+}
 .company-directors-sns-link > img {
   width: 32px;
   height: 32px;

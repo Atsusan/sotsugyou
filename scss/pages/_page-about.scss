@@ -365,6 +365,10 @@
     justify-content: flex-start;
     align-items: center;
 
+    & > a:hover {
+        opacity: .7;
+    }
+
     &-link > img {
         width: 32px;
         height: 32px;
