@@ -45,7 +45,7 @@ get_header(); ?>
                                 </div>
                             </dl>
                         </div>
-                        <a href="#" class="btn btn-arrow">お申し込みはこちら</a>
+                        <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow">お申し込みはこちら</a>
                     </div><!-- / .service-detail-main -->
                 </article>
                 <article class="service-detail-item section-background-skew service-detail-background-skew">
@@ -83,7 +83,7 @@ get_header(); ?>
                                     </div>
                                 </dl>
                             </div>
-                            <a href="#" class="btn btn-arrow">お申し込みはこちら</a>
+                            <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow">お申し込みはこちら</a>
                         </div><!-- / .service-detail-main -->
                     </div>
                 </article>
@@ -119,7 +119,7 @@ get_header(); ?>
                                 </div>
                             </dl>
                         </div>
-                        <a href="#" class="btn btn-arrow">お申し込みはこちら</a>
+                        <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow">お申し込みはこちら</a>
                     </div><!-- / .service-detail-main -->
                 </article>
 

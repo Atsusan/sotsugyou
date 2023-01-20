@@ -127,7 +127,7 @@
                     <div class="casestudy-sub section-sub">導入事例</div>
                 </div>
                 <!-- /.casestudy-titles -->
-                <a href="#<?php bloginfo('url'); ?>/case" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View&nbsp;more</a>
+                <a href="<?php bloginfo('url'); ?>/case" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View&nbsp;more</a>
             </div>
             <!-- /.casestudy-head flex -->
             <ul class="casestudy-list">

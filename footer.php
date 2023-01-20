@@ -43,7 +43,7 @@
     </footer><!-- /footer -->
 
     <div class="floating">
-        <a href="#"><i class="fas fa-chevron-up"></i></a>
+        <a href="<?php echo esc_url(home_url('/')); ?>"><i class="fas fa-chevron-up"></i></a>
     </div>
 
 
