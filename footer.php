@@ -7,7 +7,7 @@
                     <span class="footer-sub">資料ダウンロード</span>
                 </div>
                 <!-- /.footer-head -->
-                <a class="btn btn-arrow-yellow" href="/page-download.html">View more</a>
+                <a class="btn btn-arrow-yellow" href="<?php bloginfo('url'); ?>/download">View more</a>
             </div>
             <!-- /.footer-content -->
             <div class="footer-content footer-faq">
@@ -16,7 +16,7 @@
                     <span class="footer-sub">お問い合わせ</span>
                 </div>
                 <!-- /.footer-head -->
-                <a class="btn btn-arrow-yellow" href="/page-contact.html">View more</a>
+                <a class="btn btn-arrow-yellow" href="<?php bloginfo('url')?>/contact">View more</a>
             </div>
             <!-- /.footer-content -->
         </div>

@@ -12,7 +12,7 @@
                     <h2 class="about-title section-title">about&nbsp;us</h2>
                     <p class="about-sub section-sub">当社について</p>
                 </div><!-- /.about-titles -->
-                <a href="#" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View
+                <a href="<?php bloginfo('url'); ?>/about" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View
                     more</a>
             </div>
             <!-- /.about-head -->
@@ -29,7 +29,7 @@
                 <div class="about-footer">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-company.jpg" alt="img-company.jpg">
                     <div class="about-footer-link">
-                        <a href="#" class="more-wh display-hidden-active"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
+                        <a href="<?php bloginfo('url'); ?>/about" class="more-wh display-hidden-active"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
                     </div>
                     <div class="about-background-right-sp"></div>
                 </div>
@@ -51,7 +51,7 @@
                     <div class="service-sub section-sub">サービス</div>
                 </div>
                 <!-- /.service-section-titles -->
-                <a href="#" class="more-bl is-pc"><span class="more-arrow-bl is-pc"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/service" class="more-bl is-pc"><span class="more-arrow-bl is-pc"></span>View more</a>
             </div>
             <!-- /.sercice-head -->
         </div>
@@ -110,7 +110,7 @@
             </ul>
             <!-- /.service-list -->
             <div class="service-footer">
-                <a href="#" class="more-bl display-hidden-active"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/service" class="more-bl display-hidden-active"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
@@ -127,7 +127,7 @@
                     <div class="casestudy-sub section-sub">導入事例</div>
                 </div>
                 <!-- /.casestudy-titles -->
-                <a href="#" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View&nbsp;more</a>
+                <a href="#<?php bloginfo('url'); ?>/case" class="more-wh is-pc"><span class="more-arrow-wh is-pc"></span>View&nbsp;more</a>
             </div>
             <!-- /.casestudy-head flex -->
             <ul class="casestudy-list">
@@ -238,7 +238,7 @@
             </ul>
             <!-- /.casestudy-list -->
             <div class="casestudy-footer">
-                <a href="#" class="more-wh display-hidden-active"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/case" class="more-wh display-hidden-active"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
@@ -254,7 +254,7 @@
                     <h2 class="news-section-title section-title">news</h2>
                     <div class="news-section-sub section-sub">新着情報</div>
                 </div>
-                <a href="#" class="more-bl is-pc"><span class="more-arrow-bl is-pc"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/news" class="more-bl is-pc"><span class="more-arrow-bl is-pc"></span>View more</a>
             </div>
             <!-- /.news-head flex -->
             <div class="news-body">
@@ -296,7 +296,7 @@
             </div>
             <!-- /.news-body -->
             <div class="news-footer">
-                <a href="#" class="more-bl display-hidden-active"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/news" class="more-bl display-hidden-active"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
