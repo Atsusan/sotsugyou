@@ -275,11 +275,7 @@
                                             <?php endif; ?>
 
                                         </p>
-                                        <p class="news-item-date">
-                                            <time datetime="<?php the_time('c'); ?>">
-                                                <?php the_time('Y.n.j')?>
-                                            </time>
-                                        </p>
+                                        <?php my_the_time('news-item-date'); ?>
                                     </div>
                                     <div class="news-item-body">
                                         <h3 class="news-item-title">

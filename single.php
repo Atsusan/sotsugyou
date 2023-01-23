@@ -10,7 +10,7 @@
                     <?php the_post(); ?>
                     <div class="single-meta">
                     <?php my_the_category('single-category'); ?>
-                    <time class="single-time" datetime="<?php the_time('c'); ?>"><?php the_time('Y.m.d') ?></time>
+                    <?php my_the_time('single-time'); ?>
                 </div><!-- /.single-meta -->
 
                 <h1 class="single-title"><?php the_title(); ?></h1>

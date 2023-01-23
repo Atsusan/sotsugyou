@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: お知らせ
+Template Name: アーカイブページ
 */
 get_header(); ?>
 
@@ -43,7 +43,7 @@ get_header(); ?>
                                         <span class="news-homeItem-meta-new">new</span>
                                     <?php endif; ?>
 
-                                    <time class="news-homeItem-meta-time" datetime="<?php the_time('c'); ?>"><?php the_time('Y.m.d') ?></time>
+                                    <?php my_the_time('news-homeItem-meta-time'); ?>
                                 </div><!-- /.news-homeItem-head -->
                                 <div class="news-homeItem-body">
                                     <h3 class="news-homeItem-title"><?php the_title(); ?></h3><!-- /.news-homeItem-title -->

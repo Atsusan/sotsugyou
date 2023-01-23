@@ -23,7 +23,7 @@
                         <div class="news-aside-item-main">
                             <div class="news-aside-item-head">
                                 <?php my_the_category('news-aside-item-meta-category'); ?>
-                                <time class="news-aside-item-meta-time" datetime="<?php the_time('c'); ?>"><?php the_time('Y.m.d'); ?></time>
+                                <?php my_the_time('news-aside-item-meta-time'); ?>
                             </div><!-- /.news-aside-item-head -->
                             <div class="news-aside-item-body">
                                 <h3 class="news-aside-item-title">

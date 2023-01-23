@@ -64,7 +64,7 @@ function my_bcn_breadcrumb_title( $title, $this_type, $this_id ) {
 };
 add_filter( 'bcn_breadcrumb_title', 'my_bcn_breadcrumb_title', 10, 3 );
 
-// single.php表示時、親改装追加
+// single.php表示時、親階層追加
 function my_static_breadcrumb_adder($breadcrumb_trail) {
     if (is_single()) {
         $item = new bcn_breadcrumb('ニュース', null, array(), home_url('/news'), null, true);
@@ -152,3 +152,13 @@ function my_the_category($className) {
   }
 }
 
+// タイム表示 引数にクラス名必須
+
+function my_the_time($className) {
+  $datetime = get_the_time('c');
+  $time = get_the_time('Y.m.d');
+
+  if($className) {
+    echo '<time class="' . $className . '" datetime="' . $datetime . '">' . $time . '</time>';
+  }
+}

@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: お知らせ
+Template Name: カテゴリー詳細
 */
 get_header(); ?>
 
