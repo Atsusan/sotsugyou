@@ -16,7 +16,7 @@ get_header(); ?>
                     <div class="service-detail-img">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail01.jpg" alt="ビジネス英語研修">
                     </div>
-                    <div class="service-detail-main">
+                    <div id="training" class="service-detail-main">
                         <span class="service-detail-numbertag service-detail-numbertag-01">
                             <p>01</p>
                         </span>
@@ -53,7 +53,7 @@ get_header(); ?>
                         <div class="service-detail-img">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail02.jpg" alt="異文化コミュニケーション">
                         </div>
-                        <div class="service-detail-main">
+                        <div id="communication" class="service-detail-main">
                             <span class="service-detail-numbertag service-detail-numbertag-02">
                                 <p>02</p>
                             </span>
@@ -91,7 +91,7 @@ get_header(); ?>
                     <div class="service-detail-img">
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail03.jpg" alt="ビジネス留学プログラム">
                     </div>
-                    <div class="service-detail-main">
+                    <div id="program" class="service-detail-main">
                         <span class="service-detail-numbertag service-detail-numbertag-03">
                             <p>03</p>
                         </span>

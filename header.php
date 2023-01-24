@@ -21,7 +21,7 @@
 
 <body>
     <?php wp_body_open(); ?>
-    <header id="header">
+    <header id="header" class="header">
         <div class="inner">
             <h1 class="header-logo">
                 <a href="<?php echo esc_url(home_url('/')) ?>">

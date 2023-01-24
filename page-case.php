@@ -35,8 +35,8 @@ get_header(); ?>
                         </ul>
                         <!-- /.cases-list -->
                     </nav><!-- /.cases-nav -->
-                    <section id="training" class="cases-section">
-                        <div class="cases-titles">
+                    <section class="cases-section">
+                        <div id="training" class="cases-titles">
                             <h2 class="cases-title">ビジネス英語研修</h2>
                             <span class="cases-sub">Business&nbsp;English&nbsp;Training</span>
                         </div><!-- /.cases-titles -->
@@ -48,13 +48,13 @@ get_header(); ?>
 
                         </article><!-- /.cases-items -->
                         <div class="cases-btn">
-                            <a href="#" class="btn btn-arrow cases-btn-padding">ビジネス英語研修の詳細</a>
+                            <a href="<?php bloginfo('url'); ?>/service#training" class="btn btn-arrow cases-btn-padding">ビジネス英語研修の詳細</a>
                             <!-- /.btn btn-arrow cases-btn-padding -->
                         </div><!-- /.cases-btn -->
                     </section><!-- /.cases-section -->
 
-                    <section id="communication" class="cases-section">
-                        <div class="cases-titles">
+                    <section class="cases-section">
+                        <div id="communication" class="cases-titles">
                             <h2 class="cases-title">異文化コミュニケーション</h2>
                             <span class="cases-sub">Cross-cultural&nbsp;communication</span>
                         </div><!-- /.cases-titles -->
@@ -65,14 +65,14 @@ get_header(); ?>
 
                         </article><!-- /.cases-items -->
                         <div class="cases-btn">
-                            <a href="#" class="btn btn-arrow cases-btn-padding">異文化コミュニケーションの詳細</a>
+                            <a href="<?php bloginfo('url'); ?>/service#communication" class="btn btn-arrow cases-btn-padding">異文化コミュニケーションの詳細</a>
                             <!-- /.btn btn-arrow cases-btn-padding -->
                         </div><!-- /.cases-btn -->
                     </section><!-- /.cases-section -->
 
 
-                    <section id="program" class="cases-section">
-                        <div class="cases-titles">
+                    <section class="cases-section">
+                        <div id="program" class="cases-titles">
                             <h2 class="cases-title">ビジネス留学プログラム</h2>
                             <span class="cases-sub">Business&nbsp;study&nbsp;abroad&nbsp;program</span>
                         </div><!-- /.cases-titles -->
@@ -83,7 +83,7 @@ get_header(); ?>
 
                         </article><!-- /.cases-items -->
                         <div class="cases-btn">
-                            <a href="#" class="btn btn-arrow cases-btn-padding">ビジネス留学プログラムの詳細</a>
+                            <a href="<?php bloginfo('url'); ?>/service#program" class="btn btn-arrow cases-btn-padding">ビジネス留学プログラムの詳細</a>
                             <!-- /.btn btn-arrow cases-btn-padding -->
                         </div><!-- /.cases-btn -->
                     </section><!-- /.cases-section -->
