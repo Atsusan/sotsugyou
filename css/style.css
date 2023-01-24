@@ -4009,8 +4009,13 @@ body.is-open .drawer-nav-item-link {
 
 .cases-items {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(510px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(510px, 510px));
   gap: 66px 80px;
+}
+@media (max-width: 1199px) {
+  .cases-items {
+    grid-template-columns: repeat(auto-fit, minmax(510px, 1fr));
+  }
 }
 @media (max-width: 767px) {
   .cases-items {

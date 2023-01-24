@@ -147,8 +147,12 @@
 
 .cases-items{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(510px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(510px,510px));
     gap: 66px 80px;
+
+        @include m.mq(pc-a) {
+            grid-template-columns: repeat(auto-fit,minmax(510px,1fr));
+        }
 
         @include m.mq(sp) {
             grid-template-columns: 1fr;
