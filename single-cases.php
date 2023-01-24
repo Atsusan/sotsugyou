@@ -9,7 +9,9 @@ get_header(); ?>
 
 <div class="single-cases">
     <p>こちらからは表示されません。</p>
-    <p>お手数ですが、「サイトを表示」をクリックし、導入事例のページに遷移してご確認ください。</p>
+    <p>導入事例のページに遷移してご確認ください。</p>
+
+    <a href="<?php bloginfo('url'); ?>/case" class="single-cases-btn btn btn-float">導入事例</a>
 </div>
 
 </main>
