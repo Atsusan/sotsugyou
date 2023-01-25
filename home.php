@@ -27,8 +27,8 @@ get_header(); ?>
 
                 <ul class="news-homeList">
                     <li class="news-homeItem wow fadeInUp">
-                        <a href="<?php the_permalink(); ?>" class="news-homeItem-link">
-                            <div class="news-homeItem-img">
+                        <a href="<?php the_permalink(); ?>" class="news-homeItem-link scale-main-parent">
+                            <div class="news-homeItem-img scale-main">
                                 <?php my_post_thumbanil();?>
                             </div><!-- /.news-homeItem-img -->
 

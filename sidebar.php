@@ -16,8 +16,8 @@
                 <?php $recent_query->the_post(); ?>
 
                 <li class="news-aside-item wow fadeInUp">
-                    <a href="<?php the_permalink(); ?>" class="news-aside-item-link">
-                        <div class="news-aside-item-img">
+                    <a href="<?php the_permalink(); ?>" class="news-aside-item-link scale-aside-parent">
+                        <div class="news-aside-item-img scale-aside">
                             <?php my_post_thumbanil(); ?>
                         </div><!-- /.news-aside-item-img -->
                         <div class="news-aside-item-main">
