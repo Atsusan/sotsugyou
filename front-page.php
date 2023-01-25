@@ -133,7 +133,7 @@
             <ul class="casestudy-list">
 
                 <li class="casestudy-item">
-                    <a href="#" class="casestudy-item-link">
+                    <a href="<?php bloginfo('url'); ?>/case/#training" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case01.jpg" alt="">
                         </div>
@@ -151,7 +151,7 @@
                 </li>
 
                 <li class="casestudy-item">
-                    <a href="#" class="casestudy-item-link">
+                    <a href="<?php bloginfo('url'); ?>/case/#communication" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="">
                         </div>
@@ -168,7 +168,7 @@
                     <!-- /.casestudy-item-link -->
                 </li>
                 <li class="casestudy-item">
-                    <a href="#" class="casestudy-item-link">
+                    <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case03.jpg" alt="">
                         </div>
@@ -185,7 +185,7 @@
                     <!-- /.casestudy-item-link -->
                 </li>
                 <li class="casestudy-item">
-                    <a href="#" class="casestudy-item-link">
+                    <a href="<?php bloginfo('url'); ?>/case/#communication" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case04.jpg" alt="">
                         </div>
@@ -202,7 +202,7 @@
                     <!-- /.casestudy-item-link -->
                 </li>
                 <li class="casestudy-item">
-                    <a href="#" class="casestudy-item-link">
+                    <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="">
                         </div>
@@ -219,7 +219,7 @@
                     <!-- /.casestudy-item-link -->
                 </li>
                 <li class="casestudy-item">
-                    <a href="#" class="casestudy-item-link">
+                    <a href="<?php bloginfo('url'); ?>/case/#training" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="">
                         </div>
