@@ -51,7 +51,7 @@
                     <div class="service-sub section-sub">サービス</div>
                 </div>
                 <!-- /.service-section-titles -->
-                <a href="<?php bloginfo('url'); ?>/service" class="more-bl is-pc"><span class="more-arrow-bl is-pc"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/service" class="more-bl is-pc wow fadeInUp"><span class="more-arrow-bl is-pc"></span>View more</a>
             </div>
             <!-- /.sercice-head -->
         </div>
@@ -292,7 +292,7 @@
             </div>
             <!-- /.news-body -->
             <div class="news-footer">
-                <a href="<?php bloginfo('url'); ?>/news" class="more-bl display-hidden-active"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/news" class="more-bl display-hidden-active wow fadeInUp"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
