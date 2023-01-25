@@ -6,14 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
-
-    <meta property="og:title" content="Global Standard"><!-- OGPタイトル -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://example.com/"><!-- OGPサイトURL -->
-    <meta property="og:image" content="https://example.com/img/ogp.png"><!-- OGPサムネイル -->
-    <meta property="og:site_name" content="Global Standard"><!-- OGPサイトネーム -->
-    <meta property="og:description" content=""><!-- OGPサイトの概要欄 -->
-    <meta name="twitter:card" content="summary_large_image"><!-- OGP Twitterカード -->
     <!-- ファビコンの設定 -->
     <!-- <link rel="icon" href=""> -->
     <?php wp_head(); ?>
