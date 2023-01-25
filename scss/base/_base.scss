@@ -112,7 +112,6 @@ textarea::placeholder {
 [type="checkbox"] + span {
 	cursor: pointer;
 	display: inline-block;
-	margin-right: 30px;
 	padding-left: 30px;
 	position: relative;
 	transition: all 1s ease;
@@ -151,7 +150,7 @@ textarea::placeholder {
     border-left: 4px solid #1a1a1a;
     position: absolute;
     top: 50%;
-    left: -5%;
+    left: -9%;
     transform: translateY(-50%) rotate(-45deg);
 
         @include m.mq(sp) {

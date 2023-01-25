@@ -1,0 +1,198 @@
+// 各種設定
+@use '../base/reset'; //reset.css
+@use '../base/base' as b; // 初期値の設定など
+@use '../base/mixins' as m; // function
+@use '../base/variables' as v; // color , size など
+
+/*============================================================
+# page
+============================================================= */
+.page-main {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+.page {
+    margin-bottom: 175px;
+    margin-top: 0;
+
+        @include m.mq(sp) {
+            margin-bottom: 100px;
+        }
+}
+
+.page-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-category {
+    padding: 9px 24px;
+    font-size: m.rem(14);
+    line-height: 1;
+    color: v.$cRed;
+    border: 1px solid v.$cRed;
+
+        @include m.mq(sp) {
+            padding: 6px 11px;
+            font-size: m.rem(12);
+        }
+}
+
+.page-time {
+    font-size: m.rem(14);
+    color: #888;
+    margin-right: 10px;
+    margin-left: auto;
+
+        @include m.mq(sp) {
+            margin-right: 0;
+        }
+}
+
+.page-title {
+    font-size: m.rem(24);
+    font-weight: bold;
+    line-height: calc(32/24);
+    margin-top: 20px;
+
+        @include m.mq(sp) {
+            font-size: m.rem(20);
+            line-height: calc(28/20);
+            margin-top: 8px;
+        }
+}
+
+.page-thumbnail {
+    margin-top: 41px;
+
+        @include m.mq(sp) {
+            margin-top: 24px;
+        }
+
+    & > img {
+        height: 37.1094vw;
+        max-height: 475px;
+        object-fit: cover;
+
+            @include m.mq(sp) {
+                height: 55.7222vw;
+                max-height: 209px;
+            }
+    }
+}
+
+.page-content {
+
+    & h2 {
+        margin-top: 40px;
+        padding: 8px 0 10px 20px;
+        font-size: m.rem(20);
+        font-weight: bold;
+        line-height: calc(32/20);
+        color: v.$cBlue;
+        background-color: #F8F8F8;
+        border-left: 6px solid v.$cBlue;
+
+            @include m.mq(sp) {
+                padding: 7px 0 8px 20px;
+            }
+    }
+
+    & h3 {
+        margin-top: 33px;
+        padding-bottom: 4px;
+        font-size: m.rem(18);
+        font-weight: bold;
+        line-height: calc(32/18);
+        border-bottom: 1px solid v.$cBlue;
+        color: v.$cBlue;
+
+            @include m.mq(sp) {
+                padding-bottom: 3px;
+                margin-top: 35px;
+            }
+    }
+
+    & h4 {
+        margin-top: 36px;
+        font-size: m.rem(16);
+        font-weight: bold;
+        line-height: calc(28/16);
+        color: v.$cBlue;
+
+        & + p {
+            margin-top: 13px;
+        }
+    }
+
+    & p {
+        margin-top: 18px;
+        font-size: m.rem(14);
+        line-height: calc(24/14);
+    }
+
+    & ul {
+        margin-top: 34px;
+    }
+
+    & li {
+        position: relative;
+        margin-left: 40px;
+        font-size: m.rem(14);
+        line-height: calc(24/14);
+
+            @include m.mq(sp) {
+                margin-left: 0;
+            }
+
+        &::before {
+            content: '・';
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 12px;
+
+                @include m.mq(sp) {
+                    margin-top: 16px;
+                }
+        }
+    }
+
+    .wp-block-quote {
+        background-color: #F8F8F8;
+        padding: 32px;
+        margin: 40px 40px 0;
+        border-left: 4px solid v.$cBlue;
+        position: relative;
+        z-index: 1;
+        font-size: m.rem(14);
+        line-height: (24/14);
+        max-width: 646px;
+
+            @include m.mq(sp) {
+                padding: 29px;
+                margin-left: 0;
+                width: 100%;
+                max-width: 100%;
+            }
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 82px;
+            height: 160px;
+            z-index: -1;
+            background: url(../img/parts/parts-quote.svg) no-repeat center center/contain;
+        }
+    }
+}
+
+/*============================================================
+# end  news  (home,page)
+============================================================= */

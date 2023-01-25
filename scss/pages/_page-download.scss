@@ -186,12 +186,18 @@
     }
 }
 
-.download-form-privacy + .btn {
+.wpcf7-form > p > .btn {
     width: max-content;
     padding: 1.875vw 6.25vw;
     margin: 0 auto;
     font-size: m.rem(16);
     background-color: #fff;
+
+    &:hover{
+        background-color: v.$cBlue;
+        color: #fff;
+        opacity: 1;
+    }
 
         @include m.mq(sp) {
             font-size: m.rem(14);
