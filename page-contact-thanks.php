@@ -17,7 +17,7 @@ get_header(); ?>
                         <br>
                         <div class="contact-thanks-intro-link-box">
                             <span class="contact-thanks-intro-span">→</span>
-                            <a href="#" class="contact-thanks-intro-link">トップへ戻る</a>
+                            <a href="<?php echo esc_url(home_url('/')); ?>" class="contact-thanks-intro-link">トップへ戻る</a>
                         </div>
                     </p>
                 </div><!-- /.contact-form -->

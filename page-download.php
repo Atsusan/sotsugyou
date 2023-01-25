@@ -37,5 +37,5 @@ get_header(); ?>
         </div>
       </div><!-- /.inner -->
     </section><!-- /#download.download section -->
-  </main> 
+  </main>
 <?php get_footer(); ?>
