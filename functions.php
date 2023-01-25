@@ -26,6 +26,10 @@ function my_script_init() {
     wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js', array(), 8, true);
     // fontawesome
     wp_enqueue_style('fontaweome', 'https://use.fontawesome.com/releases/v5.8.2/css/all.css?ver=5.8.2', array(), 5.8, 'all');
+    // wow css
+    wp_enqueue_style('wow-css', get_template_directory_uri() . '/css/animate.css', array(), filemtime(get_theme_file_path('css/animate.css')), 'all');
+    // wow javascript
+    wp_enqueue_script('wow-js', get_template_directory_uri() . "/js/wow.min.js", array("jquery"), filemtime(get_theme_file_path('js/wow.min.js')), true);
     // main css
     wp_enqueue_style('main-css', get_template_directory_uri() . '/css/style.css', array(), filemtime(get_theme_file_path('css/style.css')), 'all');
     // main javascript
