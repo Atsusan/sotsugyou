@@ -113,7 +113,6 @@ function my_theme_widgets_init() {
 }
 add_action( 'widgets_init', 'my_theme_widgets_init' );
 
-
 /**
  *
  * 独自関数

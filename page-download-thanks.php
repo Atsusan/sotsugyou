@@ -40,7 +40,7 @@ get_header(); ?>
                                 資料は以下のリンクよりダウンロードください。
                                 <br>
                                 →
-                                <a href="#" class="download-form-text-link">
+                                <a href="https://drive.google.com/file/d/16MLde-FV0RvnGSktnyK95_x84eFr0kBz/view?usp=sharing" class="download-form-text-link">
                                     資料のダウンロードリンクはこちら
                                 </a>
                             </p>
