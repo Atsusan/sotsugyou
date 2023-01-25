@@ -583,8 +583,8 @@ textarea::placeholder {
   border-left: 4px solid #1a1a1a;
   position: absolute;
   top: 50%;
-  left: -9%;
-  transform: translateY(-50%) rotate(-45deg);
+  left: -5%;
+  transform: translateY(-36%) rotate(-45deg);
 }
 @media (max-width: 767px) {
   [type=checkbox]:checked + span::after {
@@ -4426,14 +4426,14 @@ body.is-open .drawer-nav-item-link {
 
 .download-form {
   width: 50%;
-  padding: 40px;
+  padding: 40px 40px 10px;
   background-color: #EDF3F8;
   border-radius: 12px;
 }
 @media (max-width: 767px) {
   .download-form {
     width: 100%;
-    padding: 40px 20px;
+    padding: 40px 20px 7px;
   }
 }
 
@@ -4497,14 +4497,14 @@ body.is-open .drawer-nav-item-link {
 }
 @media (max-width: 767px) {
   .download-form-item:not(:first-of-type) {
-    margin-top: 20px;
+    margin-top: 25px;
   }
 }
 
 .download-form-item-text {
   font-size: 1.125rem;
   font-weight: bold;
-  margin-bottom: 13px;
+  margin-bottom: 16px;
   line-height: 1.13;
 }
 @media (max-width: 767px) {
@@ -4544,12 +4544,15 @@ body.is-open .drawer-nav-item-link {
     padding: 12px 0 12px 14px;
   }
 }
+.download-form-input-box > p > span > input {
+  width: 100%;
+}
 
 .download-form-privacy {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 39px;
   margin-bottom: 45px;
 }
 .download-form-privacy-link {
@@ -4559,6 +4562,14 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 767px) {
   .download-form-privacy-link {
     margin-right: 6px;
+  }
+}
+.download-form-privacy > p {
+  margin-left: -29px;
+}
+@media (max-width: 767px) {
+  .download-form-privacy > p {
+    margin-left: -16px;
   }
 }
 
