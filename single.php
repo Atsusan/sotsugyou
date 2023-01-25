@@ -8,18 +8,18 @@
             <?php if(have_posts()): ?>
                 <?php while(have_posts()): ?>
                     <?php the_post(); ?>
-                    <div class="single-meta">
+                    <div class="single-meta wow fadeInUp">
                     <?php my_the_category('single-category'); ?>
                     <?php my_the_time('single-time'); ?>
                 </div><!-- /.single-meta -->
 
-                <h1 class="single-title"><?php the_title(); ?></h1>
+                <h1 class="single-title wow fadeInUp"><?php the_title(); ?></h1>
 
-                <div class="single-thumbnail">
+                <div class="single-thumbnail wow fadeInUp">
                     <?php my_post_thumbanil(); ?>
                 </div><!-- /.single-thumbnail -->
 
-                <article class="single-content">
+                <article class="single-content wow fadeInUp">
                    <?php the_content(); ?>
                    <!-- 改ページ対策  php -->
                    <?php

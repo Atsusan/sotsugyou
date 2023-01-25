@@ -8,7 +8,7 @@ get_header(); ?>
     <!-- main -->
     <main class="main">
         <section id="news" class="news-home section">
-            <h2 class="news-title">ニュース</h2>
+            <h2 class="news-title wow fadeInUp">ニュース</h2>
 
             <?php
                 $args = array(
@@ -26,7 +26,7 @@ get_header(); ?>
 
 
                 <ul class="news-homeList">
-                    <li class="news-homeItem">
+                    <li class="news-homeItem wow fadeInUp">
                         <a href="<?php the_permalink(); ?>" class="news-homeItem-link">
                             <div class="news-homeItem-img">
                                 <?php my_post_thumbanil();?>
@@ -77,7 +77,7 @@ get_header(); ?>
                     <p>記事はありません。</p>
                 <?php endif; wp_reset_postdata(); ?>
 
-                <div class="pagination news-pagination">
+                <div class="pagination news-pagination wow fadeInUp">
                     <?php
                         $big = 999999999; // need an unlikely integer
 

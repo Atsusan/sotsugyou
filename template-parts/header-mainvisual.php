@@ -82,7 +82,7 @@
 </div>
 <!-- / end page-case -->
 
-<?php elseif (is_page('download') || is_page('download-thanks')) : ?>
+<?php elseif (is_page('download') || is_page('download/thanks')) : ?>
 
 <!-- page-download or page-download-thanks -->
 <div class="download-mainvisual mv">
@@ -94,7 +94,7 @@
 </div>
 <!-- end page-download or page-download-thanks -->
 
-<?php elseif (is_page('contact') || is_page('contact-thanks')) : ?>
+<?php elseif (is_page('contact') || is_page('contact/thanks')) : ?>
 
 <!-- page-contact or page-contact-thanks -->
 <div class="contact-mainvisual mv">

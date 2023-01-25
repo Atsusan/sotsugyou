@@ -10,7 +10,7 @@ get_header(); ?>
     <!-- main -->
     <main class="main">
         <section id="news" class="news-home section">
-            <h2 class="news-title"><?php the_archive_title(); ?></h2>
+            <h2 class="news-title wow fadeInUp"><?php the_archive_title(); ?></h2>
 
             <?php
                 $args = array(
@@ -28,7 +28,7 @@ get_header(); ?>
 
 
                 <ul class="news-homeList">
-                    <li class="news-homeItem">
+                    <li class="news-homeItem wow fadeInUp">
                         <a href="<?php the_permalink(); ?>" class="news-homeItem-link">
                             <div class="news-homeItem-img">
                                 <?php my_post_thumbanil();?>

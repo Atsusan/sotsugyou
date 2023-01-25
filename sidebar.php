@@ -1,6 +1,6 @@
 <!-- aside -->
 <aside class="aside">
-    <h2 class="news-aside-title news-aside-title-new">新着記事</h2>
+    <h2 class="news-aside-title news-aside-title-new wow fadeInUp">新着記事</h2>
     <ul class="news-aside-list">
 
         <?php
@@ -15,7 +15,7 @@
             <?php while($recent_query->have_posts()): ?>
                 <?php $recent_query->the_post(); ?>
 
-                <li class="news-aside-item">
+                <li class="news-aside-item wow fadeInUp">
                     <a href="<?php the_permalink(); ?>" class="news-aside-item-link">
                         <div class="news-aside-item-img">
                             <?php my_post_thumbanil(); ?>
@@ -41,7 +41,7 @@
 
     </ul>
 
-    <h2 class="news-aside-title news-aside-title-category">カテゴリ</h2>
+    <h2 class="news-aside-title news-aside-title-category wow fadeInUp">カテゴリ</h2>
         <?php if ( is_active_sidebar('main-sidebar') ) : ?>
             <?php dynamic_sidebar('main-sidebar'); ?>
         <?php endif; ?>

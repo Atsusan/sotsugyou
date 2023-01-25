@@ -8,7 +8,7 @@ get_header(); ?>
         <section id="service-detail" class="service-detail section">
             <div class="inner">
                 <div class="service-introduction-area">
-                    <p class="service-introduction">
+                    <p class="service-introduction wow fadeInUp">
                         世界で活躍できる<br>グローバルな人材を育てる<br class="is-sp">３つの研修プログラム
                     </p>
                 </div><!-- /.service-introduction -->
@@ -17,14 +17,14 @@ get_header(); ?>
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail01.jpg" alt="ビジネス英語研修">
                     </div>
                     <div id="training" class="service-detail-main">
-                        <span class="service-detail-numbertag service-detail-numbertag-01">
+                        <span class="service-detail-numbertag service-detail-numbertag-01 wow fadeInUp">
                             <p>01</p>
                         </span>
-                        <div class="service-detail-head">
+                        <div class="service-detail-head wow fadeInUp">
                             <h2 class="service-detail-title">ビジネス英語研修</h2>
                             <p class="service-detail-sub">Business&nbsp;English&nbsp;Training</p>
                         </div>
-                        <p class="service-detail-text">ビジネス英会話はこれからの時代、すべてのビジネスパーソンが学ぶべき必須スキルと考えおります。
+                        <p class="service-detail-text wow fadeInUp">ビジネス英会話はこれからの時代、すべてのビジネスパーソンが学ぶべき必須スキルと考えおります。
                             <br>
                             海外にビジネス展開する際にはもちろんのこと、日本国内でも英会話コミュニケーションができることによってチャンスが掴める場面があります。
                             <br>
@@ -35,17 +35,17 @@ get_header(); ?>
                         </p>
                         <div class="service-detail-footer">
                             <dl class="service-detail-dl">
-                                <div class="service-detail-flex">
+                                <div class="service-detail-flex wow fadeInUp">
                                     <dt class="service-detail-dt">対象</dt>
                                     <dd class="service-detail-dd">ビジネスの中で使える英語コミュニケーション能力が必要な方</dd>
                                 </div>
-                                <div class="service-detail-flex">
+                                <div class="service-detail-flex wow fadeInUp">
                                     <dt class="service-detail-dt">費用</dt>
                                     <dd class="service-detail-dd">時間内容要相談</dd>
                                 </div>
                             </dl>
                         </div>
-                        <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow">お申し込みはこちら</a>
+                        <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow wow fadeInUp">お申し込みはこちら</a>
                     </div><!-- / .service-detail-main -->
                 </article>
                 <article class="service-detail-item section-background-skew service-detail-background-skew">
@@ -54,14 +54,14 @@ get_header(); ?>
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail02.jpg" alt="異文化コミュニケーション">
                         </div>
                         <div id="communication" class="service-detail-main">
-                            <span class="service-detail-numbertag service-detail-numbertag-02">
+                            <span class="service-detail-numbertag service-detail-numbertag-02 wow fadeInUp">
                                 <p>02</p>
                             </span>
-                            <div class="service-detail-head">
+                            <div class="service-detail-head wow fadeInUp">
                                 <h2 class="service-detail-title">異文化<br class="is-sp">コミュニケーション</h2>
                                 <p class="service-detail-sub">Cross-cultural&nbsp;communication</p>
                             </div>
-                            <p class="service-detail-text">
+                            <p class="service-detail-text wow fadeInUp">
                                 急速にグローバル化が進んでおり、ビジネスの場面に限らず様々な文化的背景を持つ者同士の交流はもはや日常的な光景となりました。
                                 <br>
                                 言語や文化が異なる相手を理解することで世界が広がり、新たなビジネスチャンスに巡り会うことは少なくありません。
@@ -73,17 +73,17 @@ get_header(); ?>
                             </p>
                             <div class="service-detail-footer">
                                 <dl class="service-detail-dl">
-                                    <div class="service-detail-flex">
+                                    <div class="service-detail-flex wow fadeInUp">
                                         <dt class="service-detail-dt">対象</dt>
                                         <dd class="service-detail-dd">ビジネスの中で使える英語コミュニケーション能力が必要な方</dd>
                                     </div>
-                                    <div class="service-detail-flex">
+                                    <div class="service-detail-flex wow fadeInUp">
                                         <dt class="service-detail-dt">費用</dt>
                                         <dd class="service-detail-dd">時間内容要相談</dd>
                                     </div>
                                 </dl>
                             </div>
-                            <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow">お申し込みはこちら</a>
+                            <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow wow fadeInUp">お申し込みはこちら</a>
                         </div><!-- / .service-detail-main -->
                     </div>
                 </article>
@@ -92,14 +92,14 @@ get_header(); ?>
                         <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/x2/img-service-detail03.jpg" alt="ビジネス留学プログラム">
                     </div>
                     <div id="program" class="service-detail-main">
-                        <span class="service-detail-numbertag service-detail-numbertag-03">
+                        <span class="service-detail-numbertag service-detail-numbertag-03 wow fadeInUp">
                             <p>03</p>
                         </span>
-                        <div class="service-detail-head">
+                        <div class="service-detail-head wow fadeInUp">
                             <h2 class="service-detail-title">ビジネス留学プログラム</h2>
                             <p class="service-detail-sub">Business&nbsp;study&nbsp;abroad&nbsp;program</p>
                         </div>
-                        <div class="service-detail-text">
+                        <div class="service-detail-text wow fadeInUp">
                             将来的に海外で働きたい方に向けた講座をご用意しております。一般的には3ヶ月〜1年の期間で基本的な英会話スキルと、海外でのビジネスマナー習得を目指します。
                             <br>
                             通常の語学留学では得られないビジネスの場で通用するコミュニケーションスキル習得に重点をおいておりますので、海外でビジネス展開する際に自信を持って活動することができるようになります。
@@ -109,17 +109,17 @@ get_header(); ?>
                         </div>
                         <div class="service-detail-footer">
                             <dl class="service-detail-dl">
-                                <div class="service-detail-flex">
+                                <div class="service-detail-flex wow fadeInUp">
                                     <dt class="service-detail-dt">対象</dt>
                                     <dd class="service-detail-dd">ビジネスの中で使える英語コミュニケーション能力が必要な方</dd>
                                 </div>
-                                <div class="service-detail-flex">
+                                <div class="service-detail-flex wow fadeInUp">
                                     <dt class="service-detail-dt">費用</dt>
                                     <dd class="service-detail-dd">時間内容要相談</dd>
                                 </div>
                             </dl>
                         </div>
-                        <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow">お申し込みはこちら</a>
+                        <a href="<?php bloginfo('url'); ?>/contact" class="btn btn-arrow wow fadeInUp">お申し込みはこちら</a>
                     </div><!-- / .service-detail-main -->
                 </article>
 
@@ -130,8 +130,8 @@ get_header(); ?>
 
         <section id="service-flow" class="service-flow section">
             <div class="inner">
-                <h2 class="service-flow-title section-service-tite">導入の流れ</h2>
-                <article class="service-flow-container">
+                <h2 class="service-flow-title section-service-tite wow fadeInUp">導入の流れ</h2>
+                <article class="service-flow-container wow fadeInUp">
                     <div class="service-flow-item">
                         <div class="service-flow-head">
                             <p class="service-flow-step">step</p>
@@ -184,7 +184,7 @@ get_header(); ?>
 
         <section id="service-faq" class="service-faq section">
             <div class="inner">
-                <h2 class="service-faq-title section-service-title">よくある質問</h2>
+                <h2 class="service-faq-title section-service-title wow fadeInUp">よくある質問</h2>
                 <ul class="service-nav-list">
                   <?php get_template_part('template-parts/service-faq'); ?>
                 </ul>

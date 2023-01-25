@@ -16,7 +16,7 @@ global $post;
 if ($custom_posts) : foreach ($custom_posts as $post) : setup_postdata($post); ?>
 
         <!-- ループはじめ -->
-        <div class="cases-item">
+        <div class="cases-item wow fadeInUp">
             <div class="cases-item-head">
                 <div class="cases-item-titles">
                     <p class="cases-item-business"><?php the_field('business'); ?></p><!-- /.cases-item-business -->

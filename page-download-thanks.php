@@ -11,12 +11,12 @@ get_header(); ?>
             <div class="inner">
                 <div class="download-flex">
                     <div class="download-item">
-                        <h2 class="download-item-title">世界で活躍できるグローバルな人材を育てる３つの研修プログラムをご用意しております。</h2>
+                        <h2 class="download-item-title wow fadeInUp">世界で活躍できるグローバルな人材を育てる３つの研修プログラムをご用意しております。</h2>
                         <!-- /.download-item-title -->
-                        <div class="download-item-img">
+                        <div class="download-item-img wow fadeInUp">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/pamphlet.jpg" alt="pamphlet.jpg">
                         </div><!-- /.download-item-img -->
-                        <p class="download-item-text">
+                        <p class="download-item-text wow fadeInUp">
                             急速にグローバルに活躍できる企業が生き残る時代と移り変わりました。
                             <br>
                             ビジネス英語や経営学を効率よく学びながら、世界各国から集まるビジネスパーソンと交流し、世界レベルでの人脈を構築する研修をご用意しております。
@@ -30,12 +30,12 @@ get_header(); ?>
                         </p><!-- /.download-item-text -->
                     </div><!-- /.download-item -->
                     <div class="download-form">
-                        <h2 class="download-form-title">
+                        <h2 class="download-form-title wow fadeInUp">
                             資料請求いただき
                             <br>
                             ありがとうございました！
                         </h2><!-- /.download-form-title -->
-                        <div class="download-form-content">
+                        <div class="download-form-content wow fadeInUp">
                             <p class="download-form-text">
                                 資料は以下のリンクよりダウンロードください。
                                 <br>

@@ -4,7 +4,7 @@
     $count++ ;
 ?>
 <?php if(get_field("q-{$count}") && get_field("a-{$count}")) :?>
-    <li class="service-nav-item accordion">
+    <li class="service-nav-item accordion wow fadeInUp">
         <dt class="accordion-head">
             <p><?php the_field("q-{$count}"); ?></p>
             <span class="accordion-icon"></span>
