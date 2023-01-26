@@ -153,7 +153,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#communication" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -170,7 +170,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case03.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case08.jpg" alt="">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -187,7 +187,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#communication" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case04.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -204,7 +204,7 @@
                 <li class="casestudy-ite wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case09.jpg" alt="">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -221,7 +221,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#training" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
