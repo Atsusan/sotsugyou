@@ -74,7 +74,6 @@
 .mainvisual-sub span {
     font-size: m.rem(20);
     font-weight: bold;
-    padding: 5px 0;
     color: v.$text-wh;
     background-color: v.$cBlue;
     transition: all .3s ease;
@@ -261,9 +260,10 @@
 
 .service-background-skew {
     background: linear-gradient(transparent 50.5%, #edf3f8 50.5%);
-    padding-bottom: 151px;
+    padding-bottom: 176px;
 
         @include m.mq(sp) {
+            background: linear-gradient(transparent 47.4%, #edf3f8 47.4%);
             margin-bottom: 100px;
             padding-bottom: 69px;
         }
@@ -322,7 +322,7 @@
 }
 
 .service-head > .more-bl {
-    margin-bottom: -30px;
+    margin-bottom: -42px;
 }
 
 .service-item-numbertag {
@@ -387,17 +387,15 @@
 
     & span {
         background-color: v.$text-wh;
-        padding: 5px 0;
 
             @include m.mq(sp) {
                 margin-left: 16px;
-                padding: 0;
             }
     }
 }
 
 .service-subtitle-1 {
-    margin-bottom: 2px;
+    margin-bottom: 9px;
 }
 
 .service-text {
@@ -463,7 +461,7 @@
 
 .casestudy-list {
     display: grid;
-    gap: 70px;
+    gap: 70px 68px;
     grid-template-columns: repeat( 3, minmax(200px,1fr));
 
         @include m.mq(tab-a) {
@@ -628,7 +626,7 @@
 }
 
 .news-head > .more-bl {
-    margin-top: 30px;
+    margin-top: 43px;
 }
 
 .news-body {

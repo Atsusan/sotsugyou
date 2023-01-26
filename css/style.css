@@ -880,6 +880,7 @@ body.is-open .drawer-nav-item-link {
   font-family: "Fira Sans";
   font-size: 2rem;
   text-decoration: none;
+  margin-top: -7px;
 }
 .more-bl::before,
 .more-wh::before {
@@ -1521,7 +1522,6 @@ body.is-open .drawer-nav-item-link {
 .mainvisual-sub span {
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 5px 0;
   color: #fff;
   background-color: #023E78;
   transition: all 0.3s ease;
@@ -1720,10 +1720,11 @@ body.is-open .drawer-nav-item-link {
 
 .service-background-skew {
   background: linear-gradient(transparent 50.5%, #edf3f8 50.5%);
-  padding-bottom: 151px;
+  padding-bottom: 176px;
 }
 @media (max-width: 767px) {
   .service-background-skew {
+    background: linear-gradient(transparent 47.4%, #edf3f8 47.4%);
     margin-bottom: 100px;
     padding-bottom: 69px;
   }
@@ -1783,7 +1784,7 @@ body.is-open .drawer-nav-item-link {
 }
 
 .service-head > .more-bl {
-  margin-bottom: -30px;
+  margin-bottom: -42px;
 }
 
 .service-item-numbertag {
@@ -1852,17 +1853,15 @@ body.is-open .drawer-nav-item-link {
 }
 .service-subtitle span {
   background-color: #fff;
-  padding: 5px 0;
 }
 @media (max-width: 767px) {
   .service-subtitle span {
     margin-left: 16px;
-    padding: 0;
   }
 }
 
 .service-subtitle-1 {
-  margin-bottom: 2px;
+  margin-bottom: 9px;
 }
 
 .service-text {
@@ -1931,7 +1930,7 @@ body.is-open .drawer-nav-item-link {
 
 .casestudy-list {
   display: grid;
-  gap: 70px;
+  gap: 70px 68px;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
 }
 @media (max-width: 992px) {
@@ -2103,7 +2102,7 @@ body.is-open .drawer-nav-item-link {
 }
 
 .news-head > .more-bl {
-  margin-top: 30px;
+  margin-top: 43px;
 }
 
 .news-body {

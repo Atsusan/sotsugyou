@@ -132,6 +132,7 @@
     font-family: b.$font-english;
     font-size: m.rem(32);
     text-decoration: none;
+    margin-top: -7px;
 
     &::before {
         content: "";
