@@ -112,7 +112,7 @@
 
         @include m.mq(sp) {
             padding-bottom: 0;
-            background: linear-gradient(#edf3f8 0%, transparent 0%);
+            background: linear-gradient(#edf3f8 88%, transparent 88%);
         }
 }
 
@@ -543,6 +543,10 @@
 ============================================================= */
 .service-faq {
     margin-bottom: 161px;
+
+        @include m.mq(sp) {
+            margin-bottom: 100px;
+        }
 }
 
 #service-faq > .inner {
@@ -577,7 +581,7 @@
     border-bottom: 1px solid #DDD;
 
         @include m.mq(sp) {
-            padding: 16px 0;
+            padding: 16px 0 17px;
         }
 }
 
@@ -598,9 +602,11 @@
 
     & > p {
         flex: 0 1 94.186%; /* iconと被らないよう％指定で対応 */
+        line-height: 1.5;
 
             @include m.mq(sp) {
                 flex: 0 1 90%;
+                line-height: 1.4;
             }
 
             @include m.mq(xsp) {
@@ -625,14 +631,14 @@
 
     &::before {
         top: calc(50% - 1px);
-        right: 0;
+        right: 11px;
         width: 22px;
         height: 2px;
     }
 
     &::after {
         top: 0;
-        right: calc(50% - 1px);
+        right: 94%;
         width: 2px;
         height: 22px;
     }
@@ -642,7 +648,7 @@
     display: none;
 
     &-in {
-        padding: 31px 60px 0 40px;
+        padding: 27px 60px 0 40px;
         font-size: m.rem(14);
         line-height: calc(24/14);
 
