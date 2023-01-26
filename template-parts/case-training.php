@@ -19,8 +19,8 @@ if ($custom_posts) : foreach ($custom_posts as $post) : setup_postdata($post); ?
         <div class="cases-item wow fadeInUp">
             <div class="cases-item-head">
                 <div class="cases-item-titles">
-                    <p class="cases-item-business"><?php the_field('business'); ?></p><!-- /.cases-item-business -->
-                    <h2 class="cases-item-name"><?php the_field('company'); ?><span class="cases-item-name-span">様</span></h2>
+                    <p class="cases-item-business"><?php echo nl2br(get_field('business')); ?></p><!-- /.cases-item-business -->
+                    <h2 class="cases-item-name"><?php echo nl2br(get_field('company')); ?><span class="cases-item-name-span">様</span></h2>
                     <!-- /.cases-item-name -->
                 </div><!-- /.cases-item-titles -->
                 <div class="cases-item-logo">
@@ -41,19 +41,19 @@ if ($custom_posts) : foreach ($custom_posts as $post) : setup_postdata($post); ?
                     <li class="cases-item-list">
                         <h4 class="cases-item-list-title">研修の目的</h4><!-- /.cases-item-list-title -->
                         <p class="cases-item-list-text">
-                            <?php the_field('objective'); ?>
+                            <?php echo nl2br(get_field('objective')); ?>
                         </p><!-- /.cases-item-list-text -->
                     </li><!-- /.cases-item-list -->
                     <li class="cases-item-list">
                         <h4 class="cases-item-list-title">選んだ理由</h4><!-- /.cases-item-list-title -->
                         <p class="cases-item-list-text">
-                            <?php the_field('reasons'); ?>
+                            <?php echo nl2br(get_field('reasons')); ?>
                         </p><!-- /.cases-item-list-text -->
                     </li><!-- /.cases-item-list -->
                     <li class="cases-item-list">
                         <h4 class="cases-item-list-title">導入後の成果・効果</h4><!-- /.cases-item-list-title -->
                         <p class="cases-item-list-text">
-                            <?php the_field('results'); ?>
+                            <?php echo nl2br(get_field('results')); ?>
                         </p><!-- /.cases-item-list-text -->
                     </li><!-- /.cases-item-list -->
                 </ul><!-- /.cases-item-lists -->
