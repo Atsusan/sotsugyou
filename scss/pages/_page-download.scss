@@ -58,7 +58,7 @@
 
         @include m.mq(sp) {
             width: 100%;
-            padding: 40px 20px 7px;
+            padding: 40px 20px;
         }
 }
 
@@ -221,7 +221,13 @@
         }
 }
 
+#download .wpcf7-list-item-label {
+    margin-left: 44px;
 
+        @include m.mq(sp) {
+            margin-left: 10px;
+        }
+}
 
 /*============================================================
 # end page-download

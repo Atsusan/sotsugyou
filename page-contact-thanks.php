@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: お問い合わせ送信完了
+Template Name: お問い合わせ完了
 */
 get_header(); ?>
 

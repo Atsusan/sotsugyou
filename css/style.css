@@ -4480,7 +4480,7 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 767px) {
   .download-form {
     width: 100%;
-    padding: 40px 20px 7px;
+    padding: 40px 20px;
   }
 }
 
@@ -4641,6 +4641,15 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 520px) {
   .wpcf7-form > p > .btn {
     padding: 8.9333vw 18.6666vw;
+  }
+}
+
+#download .wpcf7-list-item-label {
+  margin-left: 44px;
+}
+@media (max-width: 767px) {
+  #download .wpcf7-list-item-label {
+    margin-left: 10px;
   }
 }
 
