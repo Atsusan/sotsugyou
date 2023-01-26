@@ -180,7 +180,7 @@
 #company-profile > .inner {
     background-color: v.$text-wh;
     max-width: 768px;
-    padding: 60px 40px 80px;
+    padding: 60px 40px 73px;
 
         @include m.mq(sp) {
             min-width: 335px;
@@ -216,7 +216,7 @@
 .company-profile-dl {
     font-size: m.rem(16);
     font-weight: 500;
-    line-height: calc(24/16);
+    line-height: 1.54;
 
         @include m.mq(sp) {
             font-size: m.rem(14);
