@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-    <div class="bg-wrapper inner">
+    <div class="bg-wrapper bg-wrapper-single inner">
         <!-- main -->
-        <main class="main">
+        <main class="main single-main">
             <section id="single" class="single section">
 
             <?php if(have_posts()): ?>

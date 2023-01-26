@@ -104,6 +104,8 @@
         @include m.mq(sp) {
             height: 24vw;
             width: 32vw;
+            max-height: 156px;
+            max-width: 250px;
         }
 }
 

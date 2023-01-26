@@ -35,8 +35,14 @@
         }
 
         @include m.mq(tab-a) {
-            padding-right: 20px;
+            padding-right: 10px;
         }
+}
+
+.bg-wrapper-single {
+    @include m.mq(tab-a) {
+        padding-right: 20px;
+    }
 }
 
 .main {
@@ -46,10 +52,18 @@
         }
 }
 
+.single-main {
+    width: 69.0909%;
+    @include m.mq(sp) {
+        width: 100%;
+    }
+}
+
 .aside {
     width: 28.27272%;
         @include m.mq(sp) {
             width: 100%;
+            margin-left: -10px;
         }
 }
 
@@ -90,7 +104,7 @@
     margin-top: 20px;
 
         @include m.mq(sp) {
-            margin-top: 20px;
+            margin-top: 15px;
         }
 }
 
@@ -101,7 +115,7 @@
         margin-top: 30px;
 
             @include m.mq(sp) {
-                margin-top: 18px;
+                margin-top: 8px;
             }
     }
 
@@ -225,7 +239,7 @@
     margin-left: 10px;
 
         @include m.mq(sp) {
-            margin-bottom: 20px;
+            margin-bottom: 14px;
             line-height: 1.4;
         }
 }
@@ -240,12 +254,15 @@
 
 .news-aside-item {
     margin-left: 8px;
+        @include m.mq(sp) {
+            margin-left: 6px;
+        }
 
     &:not(:first-of-type) {
         margin-top: 8px;
 
             @include m.mq(sp) {
-                margin-top: 20px;
+                margin-top: 14px;
             }
     }
 
@@ -350,6 +367,7 @@
 
     @include m.mq(sp) {
         margin-bottom: 100px;
+        margin-left: 10px;
     }
 }
 .cat-item {
@@ -392,6 +410,8 @@
 /*============================================================
 # single
 ============================================================= */
+
+.single
 
 .single {
     margin-bottom: 175px;
