@@ -4134,7 +4134,7 @@ body.is-open .drawer-nav-item-link {
 }
 @media (max-width: 767px) {
   .cases-section {
-    padding-top: 69px;
+    padding-top: 66px;
   }
 }
 
@@ -4300,7 +4300,7 @@ body.is-open .drawer-nav-item-link {
   padding-bottom: 9px;
 }
 .cases-item-title-span {
-  margin-left: 10px;
+  margin-left: 4px;
 }
 
 .cases-item-list {
