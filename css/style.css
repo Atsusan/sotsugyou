@@ -846,7 +846,7 @@ body.is-open .drawer-nav-item-link {
   width: 315px;
   border: 2px solid #FEF400;
   color: #FEF400;
-  background-color: none;
+  background-color: transparent;
   position: relative;
   transition: all 0.3s ease;
 }
