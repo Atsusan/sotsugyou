@@ -10,6 +10,8 @@ get_header(); ?>
         <section id="news" class="news-home section">
             <h2 class="news-title wow fadeInUp">ニュース</h2>
 
+
+            <ul class="news-homeList">
             <?php
                 $args = array(
                     'post_type' => 'post',
@@ -25,7 +27,6 @@ get_header(); ?>
             <!-- ループ内 -->
 
 
-                <ul class="news-homeList">
                     <li class="news-homeItem wow fadeInUp">
                         <a href="<?php the_permalink(); ?>" class="news-homeItem-link scale-main-parent">
                             <div class="news-homeItem-img scale-main">
@@ -50,14 +51,20 @@ get_header(); ?>
                             </div><!-- /.news-homeItem-main -->
                         </a><!-- /.news-homeItem-link -->
                     </li><!-- /.news-homeItem -->
-                </ul>
-                <!-- /.news-list -->
 
-                <!-- pagination -->
 
-                <?php if(paginate_links()): ?>
-                    <ul class="pagination">
-                        <?php
+                    <!-- end ループ内 -->
+                    <?php endwhile; ?>
+                    <?php else: ?>
+                        <p>記事はありません。</p>
+                    <?php endif; wp_reset_postdata(); ?>
+                    </ul>
+                    <!-- /.news-list -->
+
+                        <!-- pagination -->
+                        <?php if(paginate_links()): ?>
+                        <ul class="pagination">
+                            <?php
                             echo paginate_links(
                                 array(
                                     'end_size' => '1',
@@ -65,34 +72,29 @@ get_header(); ?>
                                     'prev_next' => true,
                                     'prev_text' => '<span href="#" class="page-number pagination-previous">&gt;<span>',
                                     'next_text' => '<span href="#" class="page-number pagination-next">&gl;<span>'
-                                )
-                            );
-                        ?>
+                                    )
+                                );
+                                ?>
                     </ul>
                 <?php endif; ?>
 
-                <!-- end ループ内 -->
-                <?php endwhile; ?>
-                <?php else: ?>
-                    <p>記事はありません。</p>
-                <?php endif; wp_reset_postdata(); ?>
-
                 <div class="pagination news-pagination wow fadeInUp">
-                    <?php
-                        $big = 999999999; // need an unlikely integer
+
+                <?php
+                    $big = 999999999; // need an unlikely integer
 
                     echo paginate_links(
                         array(
-                        'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-                        'format' => '?paged=%#%',
-                        'current' => max( 1, get_query_var('paged') ),
-                        'total' => $the_query->max_num_pages,
-                        'prev_text' => '',
-                        'next_text' => '',
-                        )
-                    );
-                    ?>
-                </div>
+                            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+                            'format' => '?paged=%#%',
+                            'current' => max( 1, get_query_var('paged') ),
+                            'total' => $the_query->max_num_pages,
+                            'prev_text' => '',
+                            'next_text' => '',
+
+                        ));
+                ?>
+            </div>
         </section>
         <!-- /#news.news section -->
     </main>

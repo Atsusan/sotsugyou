@@ -40,14 +40,14 @@
 }
 
 .main {
-    width: 69.0909%;
+    width: 70.0909%;
         @include m.mq(sp) {
             width: 100%;
         }
 }
 
 .aside {
-    width: 27.27272%;
+    width: 28.27272%;
         @include m.mq(sp) {
             width: 100%;
         }
@@ -87,7 +87,7 @@
 }
 
 .news-homeList {
-    margin-top: 25px;
+    margin-top: 20px;
 
         @include m.mq(sp) {
             margin-top: 20px;
@@ -95,9 +95,10 @@
 }
 
 .news-homeItem {
+    margin-left: -10px;
 
     &:not(:first-of-type) {
-        margin-top: 40px;
+        margin-top: 30px;
 
             @include m.mq(sp) {
                 margin-top: 18px;
@@ -107,10 +108,12 @@
     &-link {
         display: flex;
         justify-content: space-between;
-        transition: opacity .3s ease;
+        transition: all .3s ease;
+        padding: 5px 10px;
+        border-radius: 6px;
 
         &:hover {
-            opacity: 0.7;
+            background-color: rgba($color: v.$cLightBlue, $alpha: .7);
         }
     }
 
@@ -215,10 +218,11 @@
 ============================================================= */
 
 .news-aside-title {
-    margin-bottom: 18px;
+    margin-bottom: 14px;
     font-size: m.rem(20);
     font-weight: bold;
     line-height: 1.32;
+    margin-left: 10px;
 
         @include m.mq(sp) {
             margin-bottom: 20px;
@@ -235,9 +239,10 @@
 }
 
 .news-aside-item {
+    margin-left: 8px;
 
     &:not(:first-of-type) {
-        margin-top: 16px;
+        margin-top: 8px;
 
             @include m.mq(sp) {
                 margin-top: 20px;
@@ -247,10 +252,12 @@
     &-link {
         display: flex;
         justify-content: space-between;
-        transition: opacity .3s ease;
+        transition: all .3s ease;
+        padding: 4px;
+        border-radius: 5px;
 
         &:hover {
-            opacity: 0.7;
+            background-color: rgba($color: v.$cLightBlue, $alpha: .7);
         }
     }
 
@@ -348,7 +355,7 @@
 .cat-item {
     border-top: 1px solid #DDD;
     font-size: m.rem(16);
-    padding: 16px 16px 12px 40px;
+    padding: 16px 16px 12px 50px;
 
             @include m.mq(sp) {
                 margin-left: 2.66666vw;
@@ -375,6 +382,10 @@
             height: 16px;
             background: url(../img/parts/icon-chevron-right.svg) no-repeat center center/contain;
         }
+    }
+
+    &:hover {
+        background-color: rgba($color: v.$cLightBlue, $alpha: .7);
     }
 }
 
