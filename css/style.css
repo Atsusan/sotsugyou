@@ -4148,6 +4148,7 @@ body.is-open .drawer-nav-item-link {
   background-color: #EEEEEE;
   min-width: 208px;
   min-height: 44px;
+  height: 44px;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.2;
@@ -4155,6 +4156,16 @@ body.is-open .drawer-nav-item-link {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cases-nav-item:hover {
+  opacity: 0.7;
+}
+.cases-nav-item > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cases-nav-item:not(:first-child) {
   margin-left: 16px;
