@@ -63,7 +63,7 @@
                     <div class="service-item-head wow fadeInUp">
                         <div class="service-item-numbertag">01</div>
                         <div class="service-item-img service-item-img-01">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service01.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service01.jpg" alt="ビジネス英語研修イメージ">
                         </div>
                         <h3 class="service-subtitle"><span>ビジネス英語研修</span></h3>
                     </div>
@@ -77,7 +77,7 @@
                     <div class="service-item-head wow fadeInUp">
                         <div class="service-item-numbertag">02</div>
                         <div class="service-item-img service-item-img-02">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service02.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service02.jpg" alt="異文化コミュニケーション研修イメージ">
                         </div>
                         <div class="service-subtitle">
                             <h3 class="service-subtitle-1"><span>異文化</span></h3>
@@ -93,7 +93,7 @@
                     <div class="service-item-head wow fadeInUp">
                         <div class="service-item-numbertag">03</div>
                         <div class="service-item-img service-item-img-03">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service03.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-service03.jpg" alt="ビジネス留学サポートプログラムイメージ">
                         </div>
                         <div class="service-subtitle">
                             <h3 class="service-subtitle-1"><span>ビジネス留学</span></h3>
@@ -135,7 +135,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#training" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case01.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case01.jpg" alt="AAA株式会社様ロゴ">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -153,7 +153,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#communication" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case05.jpg" alt="合同会社BBB様ロゴ">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -170,7 +170,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case08.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case08.jpg" alt="株式会社CCC様ロゴ">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -187,7 +187,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#communication" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case06.jpg" alt="DDD株式会社様ロゴ">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -204,7 +204,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case09.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case09.jpg" alt="EEE株式会社様ロゴ">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
@@ -221,7 +221,7 @@
                 <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#training" class="casestudy-item-link">
                         <div class="casestudy-item-head">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case02.jpg" alt="FFF株式会社様ロゴ">
                         </div>
                         <!-- /.casestudy-item-head -->
                         <div class="casestudy-item-body">
