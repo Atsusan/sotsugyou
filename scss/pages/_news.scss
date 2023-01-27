@@ -178,6 +178,10 @@
                 font-size: m.rem(12);
                 padding: 7px 11px;
             }
+
+            @include m.mq(xxsp) {
+                font-size: m.rem(11);
+            }
     }
 
     &-meta-new {
@@ -201,6 +205,10 @@
                 font-size: m.rem(14);
                 margin-right: 4px;
             }
+
+            @include m.mq(xxsp) {
+                font-size: m.rem(11);
+            }
     }
 
     &-body {
@@ -223,6 +231,10 @@
                 font-size: m.rem(14);
                 line-height: calc(20/14);
                 height: 16vw;
+            }
+
+            @include m.mq(xxsp) {
+                font-size: m.rem(11);
             }
     }
 }
@@ -328,6 +340,10 @@
         color: v.$cRed;
         border: 1px solid v.$cRed;
         padding: 6px 11px;
+
+            @include m.mq(xxsp) {
+                font-size: m.rem(11);
+            }
     }
 
     &-meta-time {
@@ -343,6 +359,10 @@
             @include m.mq(sp) {
                 margin-left: auto;
             }
+
+            @include m.mq(xxsp) {
+                font-size: m.rem(11);
+            }
     }
 
     &-body {
@@ -357,6 +377,10 @@
         font-size: m.rem(14);
         font-weight: bold;
         line-height: calc(20/14);
+
+            @include m.mq(xxsp) {
+                font-size: m.rem(11);
+            }
     }
 }
 
