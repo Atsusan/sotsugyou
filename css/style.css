@@ -2382,7 +2382,6 @@ body.is-open .drawer-nav-item-link {
 }
 @media (max-width: 767px) {
   #company-profile > .inner {
-    min-width: 335px;
     padding: 40px 20px;
   }
 }
@@ -2925,13 +2924,24 @@ body.is-open .drawer-nav-item-link {
 
 #service-detail .btn-arrow {
   margin: 0 auto;
-  padding: 35px 80px;
+  padding: 2.34375vw 6.25vw;
+  max-width: 400px;
   width: max-content;
   font-size: 1rem;
 }
+@media (min-width: 1200px) {
+  #service-detail .btn-arrow {
+    padding: 35px 80px;
+  }
+}
 @media (max-width: 767px) {
   #service-detail .btn-arrow {
-    padding: 36px 73px;
+    padding: 9.6vw 19.46666vw;
+  }
+}
+@media (max-width: 370px) {
+  #service-detail .btn-arrow {
+    padding: 10px 45px;
   }
 }
 #service-detail .btn-arrow:hover {

@@ -183,7 +183,6 @@
     padding: 60px 40px 73px;
 
         @include m.mq(sp) {
-            min-width: 335px;
             padding: 40px 20px;
         }
 }

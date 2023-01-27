@@ -312,12 +312,21 @@
 
 #service-detail  .btn-arrow {
     margin: 0 auto;
-    padding: 35px 80px;
+    padding: 2.34375vw 6.25vw;
+    max-width: 400px;
     width: max-content;
     font-size: m.rem(16);
 
+        @include m.mq(pc-b) {
+            padding: 35px 80px;
+        }
+
         @include m.mq(sp) {
-            padding: 36px 73px;
+            padding: 9.6vw 19.46666vw;
+        }
+
+        @include m.mq(xxsp) {
+            padding: 10px 45px;
         }
 
     &:hover {
