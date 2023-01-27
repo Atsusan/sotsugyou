@@ -27,25 +27,25 @@ get_header(); ?>
             <!-- ループ内 -->
 
 
-                    <li class="news-homeItem wow fadeInUp">
+                    <li class="news-homeItem">
                         <a href="<?php the_permalink(); ?>" class="news-homeItem-link scale-main-parent">
-                            <div class="news-homeItem-img scale-main">
+                            <div class="news-homeItem-img scale-main wow fadeInUp">
                                 <?php my_post_thumbanil();?>
                             </div><!-- /.news-homeItem-img -->
 
                             <div class="news-homeItem-main">
-                                <div class="news-homeItem-head">
+                                <div class="news-homeItem-head wow fadeInUp">
                                     <?php my_the_category('news-homeItem-meta-category'); ?>
 
                                     <!-- 新着2件のみ new を表示する-->
                                     <?php if($count <= 2): ?>
-                                        <span class="news-homeItem-meta-new">new</span>
+                                        <span class="news-homeItem-meta-new wow fadeInUp">new</span>
                                     <?php endif; ?>
 
                                     <?php my_the_time('news-homeItem-meta-time'); ?>
                                 </div><!-- /.news-homeItem-head -->
                                 <div class="news-homeItem-body">
-                                    <h3 class="news-homeItem-title"><?php the_title(); ?></h3><!-- /.news-homeItem-title -->
+                                    <h3 class="news-homeItem-title wow fadeInUp"><?php the_title(); ?></h3><!-- /.news-homeItem-title -->
                                 </div>
                                 <!-- /.news-homeItem-body -->
                             </div><!-- /.news-homeItem-main -->
