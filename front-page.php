@@ -201,7 +201,7 @@
                     </a>
                     <!-- /.casestudy-item-link -->
                 </li>
-                <li class="casestudy-ite wow fadeInUp">
+                <li class="casestudy-item wow fadeInUp">
                     <a href="<?php bloginfo('url'); ?>/case/#program" class="casestudy-item-link">
                         <div class="casestudy-item-head">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/img-case09.jpg" alt="">

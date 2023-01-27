@@ -1856,6 +1856,11 @@ body.is-open .drawer-nav-item-link {
     bottom: 34px;
   }
 }
+@media (max-width: 370px) {
+  .service-subtitle {
+    font-size: 1.25rem;
+  }
+}
 .service-subtitle span {
   background-color: #fff;
 }
@@ -1950,6 +1955,11 @@ body.is-open .drawer-nav-item-link {
     gap: 56px;
   }
 }
+@media (max-width: 370px) {
+  .casestudy-list {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  }
+}
 
 .casestudy-item-link {
   text-decoration: none;
@@ -1970,6 +1980,11 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 767px) {
   .casestudy-item-head {
     max-width: 100%;
+  }
+}
+@media (max-width: 370px) {
+  .casestudy-item-head > img {
+    width: 80vw;
   }
 }
 
@@ -2021,6 +2036,11 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 767px) {
   .casestudy-item-arrow {
     margin-right: -12px;
+  }
+}
+@media (max-width: 370px) {
+  .casestudy-item-arrow {
+    margin-right: 0;
   }
 }
 .casestudy-item-arrow::before {

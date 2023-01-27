@@ -385,6 +385,10 @@
             bottom: 34px;
         }
 
+        @include m.mq(xxsp) {
+            font-size: m.rem(20);
+        }
+
     & span {
         background-color: v.$text-wh;
 
@@ -473,6 +477,10 @@
             margin-bottom: calc(40px + 60px);
             gap: 56px;
         }
+
+        @include m.mq(xxsp) {
+            grid-template-columns: repeat( auto-fit, minmax(290px,1fr));
+        }
 }
 
 .casestudy-item-link {
@@ -494,6 +502,12 @@
 
         @include m.mq(sp) {
             max-width: 100%;
+        }
+
+        & > img {
+            @include m.mq(xxsp) {
+                width: 80vw;
+            }
         }
 }
 
@@ -541,6 +555,10 @@
 
         @include m.mq(sp) {
             margin-right: -12px;
+        }
+
+        @include m.mq(xxsp) {
+            margin-right: 0;
         }
 
     &::before {
