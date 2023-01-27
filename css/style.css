@@ -938,6 +938,12 @@ body.is-open .drawer-nav-item-link {
   display: block;
   overflow-x: hidden;
 }
+@media (max-width: 520px) {
+  .more-arrow-bl,
+.more-arrow-wh {
+    right: -3.5vw;
+  }
+}
 .more-arrow-bl::after,
 .more-arrow-wh::after {
   content: "";
@@ -5309,3 +5315,68 @@ body.is-open .drawer-nav-item-link {
 /*============================================================
 # end footer
 ============================================================= */
+.more-arrow-sp-wh {
+  display: block;
+  position: relative;
+}
+.more-arrow-sp-wh::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  width: 35%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s;
+}
+.more-wh:hover .more-arrow-sp-wh::before {
+  right: -12px;
+  width: 51%;
+}
+.more-wh:hover .more-arrow-sp-wh::after {
+  right: -5px;
+}
+.more-arrow-sp-wh::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 24px;
+  width: 2px;
+  height: 18px;
+  transform: rotate(-52deg);
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.more-arrow-sp-bl {
+  display: block;
+  position: relative;
+}
+.more-arrow-sp-bl::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  width: 35%;
+  height: 2px;
+  background-color: #023E78;
+  transition: all 0.3s;
+}
+.more-bl:hover .more-arrow-sp-bl::before {
+  right: -12px;
+  width: 51%;
+}
+.more-bl:hover .more-arrow-sp-bl::after {
+  right: -5px;
+}
+.more-arrow-sp-bl::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 24px;
+  width: 2px;
+  height: 18px;
+  transform: rotate(-52deg);
+  background-color: #023E78;
+  transition: all 0.3s;
+}

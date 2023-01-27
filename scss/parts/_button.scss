@@ -189,6 +189,10 @@
     display: block;
     overflow-x: hidden;
 
+        @include m.mq(xsp) {
+            right: -3.5vw;
+        }
+
     &::after {
         content: "";
         position: absolute;

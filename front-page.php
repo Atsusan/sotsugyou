@@ -29,7 +29,7 @@
                 <div class="about-footer">
                     <img class="wow fadeInUp" src="<?php echo esc_url(get_template_directory_uri()); ?>/img/img-company.jpg" alt="img-company.jpg">
                     <div class="about-footer-link">
-                        <a href="<?php bloginfo('url'); ?>/about" class="more-wh display-hidden-active wow fadeInUp"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
+                        <a href="<?php bloginfo('url'); ?>/about" class="more-wh display-hidden-active wow fadeInUp"><span class="more-arrow-sp-wh display-hidden-active"></span>View more</a>
                     </div>
                     <div class="about-background-right-sp"></div>
                 </div>
@@ -110,7 +110,7 @@
             </ul>
             <!-- /.service-list -->
             <div class="service-footer">
-                <a href="<?php bloginfo('url'); ?>/service" class="more-bl display-hidden-active wow fadeInUp"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/service" class="more-bl display-hidden-active wow fadeInUp"><span class="more-arrow-sp-bl display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
@@ -238,7 +238,7 @@
             </ul>
             <!-- /.casestudy-list -->
             <div class="casestudy-footer">
-                <a href="<?php bloginfo('url'); ?>/case" class="more-wh display-hidden-active wow fadeInUp"><span class="more-arrow-wh display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/case" class="more-wh display-hidden-active wow fadeInUp"><span class="more-arrow-sp-wh display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
@@ -292,7 +292,7 @@
             </div>
             <!-- /.news-body -->
             <div class="news-footer">
-                <a href="<?php bloginfo('url'); ?>/news" class="more-bl display-hidden-active wow fadeInUp"><span class="more-arrow-bl display-hidden-active"></span>View more</a>
+                <a href="<?php bloginfo('url'); ?>/news" class="more-bl display-hidden-active wow fadeInUp"><span class="more-arrow-sp-bl display-hidden-active"></span>View more</a>
             </div>
         </div>
         <!-- /.inner -->
