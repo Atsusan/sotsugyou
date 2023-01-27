@@ -14,5 +14,6 @@
             <?php echo nl2br(get_field("a-{$count}")); ?>
             </div><!-- /.accordion-body-in -->
         </dd>
+    </li>
 <?php endif; ?>
 <?php endwhile; ?>
