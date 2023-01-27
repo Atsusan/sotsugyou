@@ -166,7 +166,7 @@ button:hover,
   position: absolute;
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);
-  width: 28px;
+  width: 24px;
 }
 
 select {
@@ -577,7 +577,7 @@ textarea::placeholder {
 [type=checkbox]:checked + span::after {
   content: "";
   display: block;
-  width: 28px;
+  width: 24px;
   height: 16.8px;
   border-bottom: 4px solid #1a1a1a;
   border-left: 4px solid #1a1a1a;
@@ -1215,7 +1215,7 @@ body.is-open .drawer-nav-item-link {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .display-hidden {
     display: none;
   }
@@ -4775,17 +4775,17 @@ body.is-open .drawer-nav-item-link {
 
 /* チェックボックス 改行対応 */
 @media screen and (max-width: 870px) {
-  [type=checkbox]:checked + span::after {
+  .download-check:checked + span::after {
     transform: translateY(-108%) rotate(-45deg);
   }
 }
 @media screen and (max-width: 767px) {
-  [type=checkbox]:checked + span::after {
+  .download-check:checked + span::after {
     transform: translateY(-36%) rotate(-45deg);
   }
 }
 @media screen and (max-width: 330px) {
-  [type=checkbox]:checked + span::after {
+  .download-check:checked + span::after {
     transform: translateY(-108%) rotate(-45deg);
   }
 }

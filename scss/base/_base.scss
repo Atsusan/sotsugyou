@@ -144,7 +144,7 @@ textarea::placeholder {
 [type="checkbox"]:checked + span::after {
     content: "";
     display: block;
-    width: 28px;
+    width: 24px;
     height: 16.8px;
     border-bottom: 4px solid #1a1a1a;
     border-left: 4px solid #1a1a1a;

@@ -281,19 +281,19 @@
 
 /* チェックボックス 改行対応 */
 @media screen and (max-width: 870px) {
-    [type=checkbox]:checked + span::after {
+    .download-check:checked + span::after {
         transform: translateY(-108%) rotate(-45deg);
     }
 }
 
 @media  screen and (max-width: 767px) {
-    [type=checkbox]:checked + span::after {
+    .download-check:checked + span::after {
         transform: translateY(-36%) rotate(-45deg);
     }
 }
 
 @media  screen and (max-width: 330px) {
-    [type=checkbox]:checked + span::after {
+    .download-check:checked + span::after {
         transform: translateY(-108%) rotate(-45deg);
     }
 }

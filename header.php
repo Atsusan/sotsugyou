@@ -8,6 +8,7 @@
     <meta name="format-detection" content="telephone=no"><!-- 電話のリンクをしない設定 -->
     <!-- ファビコンの設定 -->
     <!-- <link rel="icon" href=""> -->
+	 <meta name="robots" content="noindex" />
     <?php wp_head(); ?>
 </head>
 
