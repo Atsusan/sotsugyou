@@ -219,6 +219,10 @@
         @include m.mq(xsp) {
             padding: 8.9333vw 18.6666vw;
         }
+
+        @include m.mq(xxsp) {
+            padding: 0 38px;
+        }
 }
 
 #download .wpcf7-list-item-label {
@@ -264,10 +268,33 @@
     &-link {
         text-decoration: underline;
         color: v.$cBlue;
+
+        &:hover {
+            opacity: .7;
+        }
     }
 
     &:not(:first-of-type) {
         margin-top: 33px;
+    }
+}
+
+/* チェックボックス 改行対応 */
+@media screen and (max-width: 870px) {
+    [type=checkbox]:checked + span::after {
+        transform: translateY(-108%) rotate(-45deg);
+    }
+}
+
+@media  screen and (max-width: 767px) {
+    [type=checkbox]:checked + span::after {
+        transform: translateY(-36%) rotate(-45deg);
+    }
+}
+
+@media  screen and (max-width: 330px) {
+    [type=checkbox]:checked + span::after {
+        transform: translateY(-108%) rotate(-45deg);
     }
 }
 
