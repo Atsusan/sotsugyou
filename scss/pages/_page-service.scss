@@ -192,6 +192,7 @@
         font-size: m.rem(100);
         font-weight: 500;
         font-family: b.$font-english;
+        font-style: italic;
         color: v.$cBlue;
 
             @include m.mq(sp) {
@@ -241,6 +242,7 @@
     font-size: m.rem(16);
     font-weight: 500;
     font-family: b.$font-english;
+    font-style: italic;
     line-height: calc(19 / 16);
     color: v.$cBlue;
 
@@ -392,6 +394,7 @@
     gap: 8px;
     color: v.$accent-yellow;
     font-family: b.$font-english;
+    font-style: italic;
 
         @include m.mq(sp) {
             flex-direction: column;

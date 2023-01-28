@@ -2334,6 +2334,7 @@ body.is-open .drawer-nav-item-link {
 .message-head-title {
   font-size: 6.25rem;
   font-family: "Fira Sans";
+  font-style: italic;
   font-weight: 500;
   line-height: 1.21;
 }
@@ -2883,6 +2884,7 @@ body.is-open .drawer-nav-item-link {
   font-size: 6.25rem;
   font-weight: 500;
   font-family: "Fira Sans";
+  font-style: italic;
   color: #023E78;
 }
 @media (max-width: 767px) {
@@ -2933,6 +2935,7 @@ body.is-open .drawer-nav-item-link {
   font-size: 1rem;
   font-weight: 500;
   font-family: "Fira Sans";
+  font-style: italic;
   line-height: 1.1875;
   color: #023E78;
 }
@@ -3095,6 +3098,7 @@ body.is-open .drawer-nav-item-link {
   gap: 8px;
   color: #FEF400;
   font-family: "Fira Sans";
+  font-style: italic;
 }
 @media (max-width: 767px) {
   .service-flow-head {
@@ -4366,6 +4370,7 @@ body.is-open .drawer-nav-item-link {
   margin-left: 20px;
   font-size: 1rem;
   font-family: "Fira Sans";
+  font-style: italic;
   line-height: 1;
   color: #023E78;
 }
