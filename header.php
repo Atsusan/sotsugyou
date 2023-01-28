@@ -18,7 +18,7 @@
         <div class="inner">
             <h1 class="header-logo">
                 <a href="<?php echo esc_url(home_url('/')) ?>">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo/company-logo.svg" alt="<?php bloginfo('name'); ?>">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>">
                 </a>
             </h1><!-- /.header-logo -->
 
