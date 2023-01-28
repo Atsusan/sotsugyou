@@ -5225,7 +5225,7 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 767px) {
   .footer-content {
     height: 265px;
-    flex: 0 0 1fr;
+    flex: 0 0 auto;
   }
 }
 
