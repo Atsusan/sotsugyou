@@ -52,6 +52,7 @@ body {
 .section-title {
     text-transform: uppercase;
     font-family: $font-english;
+    font-style: italic;
     font-size: m.rem(100);
 
         @include m.mq(tab-a) {

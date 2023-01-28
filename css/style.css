@@ -477,6 +477,7 @@ body {
 .section-title {
   text-transform: uppercase;
   font-family: "Fira Sans";
+  font-style: italic;
   font-size: 6.25rem;
 }
 @media (max-width: 992px) {
@@ -878,6 +879,7 @@ body.is-open .drawer-nav-item-link {
   height: 100%;
   display: block;
   font-family: "Fira Sans";
+  font-style: italic;
   font-size: 2rem;
   text-decoration: none;
   margin-top: -7px;
@@ -971,6 +973,72 @@ body.is-open .drawer-nav-item-link {
   .more-arrow-bl::after {
     background: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22150.813%22%20height%3D%2212.32%22%20viewBox%3D%220%200%20150.813%2012.32%22%3E%20%3Cpath%20id%3D%22%E3%83%91%E3%82%B9_4106%22%20data-name%3D%22%E3%83%91%E3%82%B9%204106%22%20d%3D%22M3703.843%2C284.313H3553.03v-2.048h145.012l-10.791-8.663%2C1.246-1.609Z%22%20transform%3D%22translate(-3553.03%20-271.994)%22%20fill%3D%22%23023E78%22%2F%3E%3C%2Fsvg%3E") no-repeat;
   }
+}
+
+.more-arrow-sp-wh {
+  display: block;
+  position: relative;
+}
+.more-arrow-sp-wh::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  width: 35%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.3s;
+}
+.more-wh:hover .more-arrow-sp-wh::before {
+  right: -12px;
+  width: 51%;
+}
+.more-wh:hover .more-arrow-sp-wh::after {
+  right: -5px;
+}
+.more-arrow-sp-wh::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 24px;
+  width: 2px;
+  height: 18px;
+  transform: rotate(-52deg);
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.more-arrow-sp-bl {
+  display: block;
+  position: relative;
+}
+.more-arrow-sp-bl::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 18px;
+  width: 35%;
+  height: 2px;
+  background-color: #023E78;
+  transition: all 0.3s;
+}
+.more-bl:hover .more-arrow-sp-bl::before {
+  right: -12px;
+  width: 51%;
+}
+.more-bl:hover .more-arrow-sp-bl::after {
+  right: -5px;
+}
+.more-arrow-sp-bl::after {
+  content: "";
+  position: absolute;
+  top: 7px;
+  right: 24px;
+  width: 2px;
+  height: 18px;
+  transform: rotate(-52deg);
+  background-color: #023E78;
+  transition: all 0.3s;
 }
 
 /*============================================================
@@ -1516,6 +1584,7 @@ body.is-open .drawer-nav-item-link {
 
 .mainvisual-title span {
   font-family: "Fira Sans";
+  font-style: italic;
   font-size: 3.75rem;
   font-weight: bold;
   color: #023E78;
@@ -1803,6 +1872,7 @@ body.is-open .drawer-nav-item-link {
   top: -85px;
   right: 0;
   font-family: "Fira Sans";
+  font-style: italic;
   font-size: 6.25rem;
   color: #023E78;
   text-shadow: 5px 4px 0 #fff;
@@ -5188,6 +5258,7 @@ body.is-open .drawer-nav-item-link {
 .footer-head {
   color: #fff;
   font-family: "Fira Sans";
+  font-style: italic;
   margin: 5px 0 37px;
 }
 @media (max-width: 767px) {
@@ -5226,6 +5297,7 @@ body.is-open .drawer-nav-item-link {
   width: max-content;
   font-size: 1.5rem;
   font-family: "Fira Sans";
+  font-style: italic;
   padding: 46px 102px;
   transition: all 0.3s ease;
 }
@@ -5282,6 +5354,7 @@ body.is-open .drawer-nav-item-link {
   font-size: 3.25rem;
   font-weight: bold;
   font-family: "Fira Sans";
+  font-style: italic;
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -5315,68 +5388,3 @@ body.is-open .drawer-nav-item-link {
 /*============================================================
 # end footer
 ============================================================= */
-.more-arrow-sp-wh {
-  display: block;
-  position: relative;
-}
-.more-arrow-sp-wh::before {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 18px;
-  width: 35%;
-  height: 2px;
-  background-color: white;
-  transition: all 0.3s;
-}
-.more-wh:hover .more-arrow-sp-wh::before {
-  right: -12px;
-  width: 51%;
-}
-.more-wh:hover .more-arrow-sp-wh::after {
-  right: -5px;
-}
-.more-arrow-sp-wh::after {
-  content: "";
-  position: absolute;
-  top: 7px;
-  right: 24px;
-  width: 2px;
-  height: 18px;
-  transform: rotate(-52deg);
-  background-color: white;
-  transition: all 0.3s;
-}
-
-.more-arrow-sp-bl {
-  display: block;
-  position: relative;
-}
-.more-arrow-sp-bl::before {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 18px;
-  width: 35%;
-  height: 2px;
-  background-color: #023E78;
-  transition: all 0.3s;
-}
-.more-bl:hover .more-arrow-sp-bl::before {
-  right: -12px;
-  width: 51%;
-}
-.more-bl:hover .more-arrow-sp-bl::after {
-  right: -5px;
-}
-.more-arrow-sp-bl::after {
-  content: "";
-  position: absolute;
-  top: 7px;
-  right: 24px;
-  width: 2px;
-  height: 18px;
-  transform: rotate(-52deg);
-  background-color: #023E78;
-  transition: all 0.3s;
-}

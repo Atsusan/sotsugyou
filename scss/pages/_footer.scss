@@ -71,6 +71,7 @@
 .footer-head {
     color: v.$text-wh;
     font-family: b.$font-english;
+    font-style: italic;
     margin: 5px 0 37px;
 
         @include m.mq(sp) {
@@ -107,6 +108,7 @@
     width: max-content;
     font-size: m.rem(24);
     font-family: b.$font-english;
+    font-style: italic;
     padding: 46px 102px;
     transition: all .3s ease;
 
@@ -159,6 +161,7 @@
     font-size: m.rem(52);
     font-weight: bold;
     font-family: b.$font-english;
+    font-style: italic;
     color: v.$text-wh;
     transition: all .3s ease;
 

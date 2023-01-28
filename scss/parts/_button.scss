@@ -130,6 +130,7 @@
     height: 100%;
     display: block;
     font-family: b.$font-english;
+    font-style: italic;
     font-size: m.rem(32);
     text-decoration: none;
     margin-top: -7px;
@@ -219,3 +220,77 @@
         }
 }
 
+
+.more-arrow-sp-wh {
+    display: block;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 18px;
+        width: 35%;
+        height: 2px;
+        background-color: white;
+        transition: all .3s;
+    }
+
+    .more-wh:hover &::before {
+        right: -12px;
+        width: 51%;
+    }
+
+    .more-wh:hover &::after {
+        right: -5px;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 7px;
+        right: 24px;
+        width: 2px;
+        height: 18px;
+        transform: rotate(-52deg);
+        background-color: white;
+        transition: all .3s;
+    }
+}
+
+.more-arrow-sp-bl {
+    display: block;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 20px;
+        right: 18px;
+        width: 35%;
+        height: 2px;
+        background-color: v.$cBlue;
+        transition: all .3s;
+    }
+
+    .more-bl:hover &::before {
+        right: -12px;
+        width: 51%;
+    }
+
+    .more-bl:hover &::after {
+        right: -5px;
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 7px;
+        right: 24px;
+        width: 2px;
+        height: 18px;
+        transform: rotate(-52deg);
+        background-color: v.$cBlue;
+        transition: all .3s;
+    }
+}
