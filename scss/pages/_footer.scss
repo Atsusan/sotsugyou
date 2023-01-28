@@ -16,6 +16,7 @@
 
 #footer-contents > .flex {
     transition: all .3s ease;
+    flex-wrap: nowrap;
 
         @include m.mq(sp) {
             flex-direction: column;
@@ -30,7 +31,7 @@
 
         @include m.mq(sp) {
             height: 265px;
-            flex: 0 0 auto;
+            flex: 0 0 1fr;
         }
 }
 

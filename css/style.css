@@ -5208,6 +5208,7 @@ body.is-open .drawer-nav-item-link {
 
 #footer-contents > .flex {
   transition: all 0.3s ease;
+  flex-wrap: nowrap;
 }
 @media (max-width: 767px) {
   #footer-contents > .flex {
@@ -5224,7 +5225,7 @@ body.is-open .drawer-nav-item-link {
 @media (max-width: 767px) {
   .footer-content {
     height: 265px;
-    flex: 0 0 auto;
+    flex: 0 0 1fr;
   }
 }
 
