@@ -48,6 +48,11 @@ textarea:focus {
 	border-color: #ccc;
 }
 
+input[type="button"],input[type="text"],input[type="submit"],input[type="image"],textarea{
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 button,
 [type="button"],
 [type="submit"] {
