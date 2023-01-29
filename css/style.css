@@ -1165,13 +1165,6 @@ body.is-open .drawer-nav-item-link {
   height: 16px;
   background: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%229.424%22%20height%3D%2216.026%22%20viewBox%3D%220%200%209.424%2016.026%22%3E%20%3Cpath%20id%3D%22icon-chevron-left%22%20d%3D%22M23.437%2C10.378a1.362%2C1.362%2C0%2C0%2C0-1.92%2C0L14.81%2C17.107a1.356%2C1.356%2C0%2C0%2C0-.042%2C1.87l6.609%2C6.63A1.355%2C1.355%2C0%2C1%2C0%2C23.3%2C23.7l-5.618-5.7%2C5.759-5.7A1.341%2C1.341%2C0%2C0%2C0%2C23.437%2C10.378Z%22%20transform%3D%22translate(-14.414%20-9.983)%22%20fill%3D%22%23888%22%2F%3E%3C%2Fsvg%3E") no-repeat;
 }
-@media (max-width: 767px) {
-  .prev::before {
-    width: 13px;
-    height: 13px;
-    transform: translate(-50%, -50%);
-  }
-}
 
 .next {
   margin-left: 20px;
@@ -1194,13 +1187,6 @@ body.is-open .drawer-nav-item-link {
   width: 16px;
   height: 16px;
   background: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%229.424%22%20height%3D%2216.026%22%20viewBox%3D%220%200%209.424%2016.026%22%3E%20%3Cpath%20id%3D%22icon-chevron-right%22%20d%3D%22M14.815%2C10.378a1.362%2C1.362%2C0%2C0%2C1%2C1.92%2C0l6.708%2C6.729a1.356%2C1.356%2C0%2C0%2C1%2C.042%2C1.87l-6.609%2C6.63a1.355%2C1.355%2C0%2C1%2C1-1.92-1.912l5.618-5.7-5.759-5.7A1.341%2C1.341%2C0%2C0%2C1%2C14.815%2C10.378Z%22%20transform%3D%22translate(-14.414%20-9.983)%22%20fill%3D%22%23888%22%2F%3E%3C%2Fsvg%3E") no-repeat;
-}
-@media (max-width: 767px) {
-  .next::before {
-    width: 13px;
-    height: 13px;
-    transform: translate(50%, -50%);
-  }
 }
 
 /* 個別投稿ページ用ページネーション */

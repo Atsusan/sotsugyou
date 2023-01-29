@@ -67,12 +67,6 @@
         width: 16px;
         height: 16px;
         @include m.svg-parts-icon-chevron-left('888');
-
-            @include m.mq(sp) {
-                width: 13px;
-                height: 13px;
-                transform: translate(-50%,-50%);
-            }
     }
 }
 .next {
@@ -95,12 +89,6 @@
         width: 16px;
         height: 16px;
         @include m.svg-parts-icon-chevron-right('888');
-
-            @include m.mq(sp) {
-                width: 13px;
-                height: 13px;
-                transform: translate(50%,-50%);
-            }
     }
 }
 
